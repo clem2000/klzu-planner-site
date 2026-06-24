@@ -56,7 +56,7 @@ a{color:#7db3ff}@media(max-width:640px){table{font-size:12px}th,td{padding:6px}}
 </nav>
 <header class="hd"><h1>✈ KLZU Weekend Aviation Planner — N201MD</h1>
 <div class="sub">Mooney M20J/201 · based KLZU (Lawrenceville/Gwinnett, GA) · window <b>Fri Jun 26 – Mon Jun 29, 2026</b></div>
-<div class="asof">Last updated Wednesday Jun 24, 2026 · 6:34 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
+<div class="asof">Last updated Wednesday Jun 24, 2026 · 6:36 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
 <div class="legend"><span class="pill vfr">🟢 VFR</span> <span class="pill lvfr">🟡 LVFR</span> <span class="pill ifr">🟠 IFR</span> <span class="pill lifr">🔴 LIFR</span> &nbsp; ⛈ convection · 🌫 fog · 🌬 wind · ▸ tap an airport; each has raw METAR/TAF + sources</div></header>
 
 <section><h2>Executive summary</h2><div class="summary">
@@ -875,7 +875,7 @@ Raw payloads + SHA-256 archived this run.</div></section>
 <div class="caution">⚠ <b>Pre-planning only — not an official weather briefing.</b> Verify an official briefing, METAR/TAF/GFA/SIGMET/CWA, NOTAMs, TFRs, runway conditions, fuel, W&B, performance, and personal minimums before flight.</div>
 <div style="text-align:center;color:#9fb0c0;font-size:12px;margin-top:18px;padding-bottom:70px">
 Shared planning page for N201MD &amp; flying partners · static snapshot of the latest scheduled run · refreshed Mon/Wed/Fri/Sat AM ET<br>
-Last updated Wednesday Jun 24, 2026 · 6:34 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
+Last updated Wednesday Jun 24, 2026 · 6:36 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
 </div>
 </div>
 
@@ -908,17 +908,7 @@ Last updated Wednesday Jun 24, 2026 · 6:34 PM ET · Next scheduled run: Friday 
   var PUB='clem2000/klzu-planner-site';
   // Feedback -> prefilled issue on the PUBLIC repo (visitors can submit)
   var title=encodeURIComponent('Planner feedback: ');
-  var body=encodeURIComponent('Improvement request / feedback for the KLZU planner.
-
-## What would you like changed or added?
-
-
-## Which part of the report?
-(e.g. a specific airport, the 7-day board, layout, a data field)
-
-
----
-_Submitted from the published planner page on '+new Date().toString()+'_');
+  var body=encodeURIComponent('Improvement request / feedback for the KLZU planner.\n\n## What would you like changed or added?\n\n\n## Which part of the report?\n(e.g. a specific airport, the 7-day board, layout, a data field)\n\n\n---\n_Submitted from the published planner page on '+new Date().toString()+'_');
   document.getElementById('fbNav').href='https://github.com/'+PUB+'/issues/new?title='+title+'&body='+body+'&labels=feedback';
   // Features backlog -> live open issues from the public repo
   fetch('https://api.github.com/repos/'+PUB+'/issues?state=open&per_page=50')
