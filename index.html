@@ -48,27 +48,38 @@ a{color:#7db3ff}@media(max-width:640px){table{font-size:12px}th,td{padding:6px}}
 .feat .issue{color:var(--muted);font-size:12px}
 .nav .pdf{background:#33261d;border-color:#d9a300;color:#ffe6b0}
 @media print{
-  body{background:#fff;color:#111}
+  /* Force browsers to keep background fills & semantic colors (Chrome/Edge/Safari/Firefox) */
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
+  body{background:#fff;color:#1a1a1a;font-size:11pt}
   .nav,.modal,#fbNav,.controls{display:none !important}
   .wrap{max-width:100%;padding:0}
-  header.hd{background:#fff;border:1px solid #ccc}
-  header.hd h1,header.hd .sub,.summary .b b,.code,.aptname{color:#111}
-  .card,.kv,.days .d,.corridor .c,.lower,.stamp,details.apt,details.sub,.summary .b{background:#fff;border:1px solid #ccc;color:#111}
-  h2,h3.reg,.secttl,.kv .k,.days .d b{color:#222}
-  .meta,.muted{color:#444}
-  .asof{background:#f2f2f2;border:1px solid #ccc;color:#333}
-  table{border:1px solid #ccc}
-  th{background:#eee !important;color:#111 !important}
-  td{border-bottom:1px solid #ddd;color:#111}
-  .legend{color:#444}
-  details.apt,details.sub{break-inside:avoid}
-  details.apt[open] .detail{display:block}
-  /* expand all airports for print */
-  details.apt,details.sub{display:block}
-  details.apt>.detail{display:block !important}
-  a{color:#111;text-decoration:none}
-  .caution{background:#fff;border:1px solid #999;color:#111}
-  @page{margin:0.6in}
+  /* Light, paper-friendly surfaces with subtle tint so panels stay distinguishable */
+  header.hd{background:#eef3f9;border:1px solid #9bb3cc}
+  header.hd h1,header.hd .sub,.code,.aptname,.summary .b b{color:#10243a}
+  .card,.days .d,.corridor .c,.stamp,details.apt,details.sub,.summary .b{background:#f7f9fc;border:1px solid #c2cfdd;color:#1a1a1a}
+  .kv{background:#eef2f7;border:1px solid #c2cfdd;color:#1a1a1a}
+  h2,h3.reg,.secttl,.kv .k,.days .d b{color:#1a4e8a}
+  .meta,.muted,.legend{color:#3a4a5c}
+  .asof{background:#eef2f7;border:1px solid #c2cfdd;color:#33414f}
+  table{background:#ffffff !important;border:1px solid #c2cfdd}
+  tr{background:#ffffff !important}
+  th{background:#e3eaf2 !important;color:#10243a !important}
+  td{background:#ffffff !important;border-bottom:1px solid #d5dde7;color:#1a1a1a !important}
+  pre{background:#eef2f7 !important;color:#10243a}
+  .srcs{color:#3a4a5c}.srcs a{color:#1a4e8a}
+  a{color:#1a4e8a;text-decoration:none}
+  /* Keep SEMANTIC colors so the report stays readable & meaningful on paper */
+  .pill{color:#fff !important}
+  .pill.vfr{background:#1a9850 !important}.pill.lvfr{background:#c98a00 !important}
+  .pill.ifr{background:#e8590c !important}.pill.lifr{background:#c92a2a !important}
+  .warn{color:#b5450a !important;font-weight:700}
+  .risk{color:#8a4b00 !important}
+  .fuel{color:#2f7d12 !important}
+  .caution{background:#fbe9ea !important;border:1px solid #c92a2a !important;color:#7a1418 !important}
+  /* expand all airports for print, avoid splitting panels across pages */
+  details.apt,details.sub{display:block;break-inside:avoid}
+  details.apt>.detail,details.apt[open] .detail{display:block !important}
+  @page{margin:0.55in}
 }
 </style></head><body><div class="wrap">
 <nav class="nav">
@@ -81,7 +92,7 @@ a{color:#7db3ff}@media(max-width:640px){table{font-size:12px}th,td{padding:6px}}
 </nav>
 <header class="hd"><h1>✈ KLZU Weekend Aviation Planner — N201MD</h1>
 <div class="sub">Mooney M20J/201 · based KLZU (Lawrenceville/Gwinnett, GA) · window <b>Fri Jun 26 – Mon Jun 29, 2026</b></div>
-<div class="asof">Last updated Wednesday Jun 24, 2026 · 7:21 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
+<div class="asof">Last updated Wednesday Jun 24, 2026 · 7:52 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
 <div class="legend"><span class="pill vfr">🟢 VFR</span> <span class="pill lvfr">🟡 LVFR</span> <span class="pill ifr">🟠 IFR</span> <span class="pill lifr">🔴 LIFR</span> &nbsp; ⛈ convection · 🌫 fog · 🌬 wind · ▸ tap an airport; each has raw METAR/TAF + sources</div></header>
 
 <section><h2>Executive summary</h2><div class="summary">
@@ -900,7 +911,7 @@ Raw payloads + SHA-256 archived this run.</div></section>
 <div class="caution">⚠ <b>Pre-planning only — not an official weather briefing.</b> Verify an official briefing, METAR/TAF/GFA/SIGMET/CWA, NOTAMs, TFRs, runway conditions, fuel, W&B, performance, and personal minimums before flight.</div>
 <div style="text-align:center;color:#9fb0c0;font-size:12px;margin-top:18px;padding-bottom:70px">
 Shared planning page for N201MD &amp; flying partners · static snapshot of the latest scheduled run · refreshed Mon/Wed/Fri/Sat AM ET<br>
-Last updated Wednesday Jun 24, 2026 · 7:21 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
+Last updated Wednesday Jun 24, 2026 · 7:52 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
 </div>
 </div>
 
@@ -920,8 +931,12 @@ Last updated Wednesday Jun 24, 2026 · 7:21 PM ET · Next scheduled run: Friday 
           <li>Best-effort 100LL fuel prices</li>
           <li>Auto-refreshed Mon/Wed/Fri/Sat AM ET; last-updated &amp; next-run shown</li>
           <li>Quick links (Flight Circle, ForeFlight, FlightAware) + Feedback</li>
+          <li>FAA chart-cycle stamp (current VFR Sectional + Chart Supplement)</li>
+          <li>Download PDF — print-ready, color-preserving (semantic colors kept on paper)</li>
         </ul></div>
-      <div class="feat-col soon"><h3>Backlog / coming soon <span class="issue">(live from GitHub)</span></h3>
+      <div class="feat-col soon"><h3>Recently shipped <span class="issue">(live from GitHub, newest first)</span></h3>
+        <ul id="shipped"><li class="issue">Loading shipped features…</li></ul>
+        <h3 style="margin-top:16px">Backlog / coming soon <span class="issue">(live from GitHub, newest first)</span></h3>
         <ul id="backlog"><li class="issue">Loading open feature requests…</li></ul>
         <p class="issue">Have an idea? Use the <b>Feedback</b> button — it opens a GitHub issue.</p>
       </div>
@@ -935,22 +950,34 @@ Last updated Wednesday Jun 24, 2026 · 7:21 PM ET · Next scheduled run: Friday 
   var title=encodeURIComponent('Planner feedback: ');
   var body=encodeURIComponent('Improvement request / feedback for the KLZU planner.\n\n## What would you like changed or added?\n\n\n## Which part of the report?\n(e.g. a specific airport, the 7-day board, layout, a data field)\n\n\n---\n_Submitted from the published planner page on '+new Date().toString()+'_');
   document.getElementById('fbNav').href='https://github.com/'+PUB+'/issues/new?title='+title+'&body='+body+'&labels=feedback';
-  // Features backlog -> live open issues from the public repo
-  fetch('https://api.github.com/repos/'+PUB+'/issues?state=open&per_page=50')
+  // Features -> live from the public repo's issues. Helper renders a sorted list.
+  function renderIssues(elId, items, opts){
+    var ul=document.getElementById(elId);
+    var feats=items.filter(function(i){return !i.pull_request;});
+    // newest first by the chosen date field
+    feats.sort(function(a,b){return new Date(b[opts.dateField]) - new Date(a[opts.dateField]);});
+    if(opts.limit) feats=feats.slice(0,opts.limit);
+    if(!feats.length){ul.innerHTML='<li class="issue">'+opts.empty+'</li>';return;}
+    ul.innerHTML='';
+    feats.forEach(function(i){
+      var li=document.createElement('li');
+      var a=document.createElement('a');a.href=i.html_url;a.target='_blank';a.rel='noopener';a.textContent=i.title;
+      li.appendChild(a);
+      var d=i[opts.dateField]?(' — '+new Date(i[opts.dateField]).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'})):'';
+      li.insertAdjacentHTML('beforeend',' <span class="issue">#'+i.number+d+'</span>');
+      ul.appendChild(li);
+    });
+  }
+  // Backlog -> open issues, newest first
+  fetch('https://api.github.com/repos/'+PUB+'/issues?state=open&per_page=100')
    .then(function(r){return r.ok?r.json():[];})
-   .then(function(items){
-     var ul=document.getElementById('backlog');
-     var feats=items.filter(function(i){return !i.pull_request;});
-     if(!feats.length){ul.innerHTML='<li class="issue">No open feature requests right now.</li>';return;}
-     ul.innerHTML='';
-     feats.forEach(function(i){
-       var li=document.createElement('li');
-       var a=document.createElement('a');a.href=i.html_url;a.target='_blank';a.rel='noopener';a.textContent=i.title;
-       li.appendChild(a);
-       li.insertAdjacentHTML('beforeend',' <span class="issue">#'+i.number+'</span>');
-       ul.appendChild(li);
-     });
-   }).catch(function(){document.getElementById('backlog').innerHTML='<li class="issue">Could not load issues. <a href="https://github.com/'+PUB+'/issues" target="_blank">View on GitHub</a>.</li>';});
+   .then(function(items){renderIssues('backlog',items,{dateField:'created_at',empty:'No open feature requests right now.'});})
+   .catch(function(){document.getElementById('backlog').innerHTML='<li class="issue">Could not load issues. <a href="https://github.com/'+PUB+'/issues" target="_blank">View on GitHub</a>.</li>';});
+  // Recently shipped -> closed issues, newest closed first
+  fetch('https://api.github.com/repos/'+PUB+'/issues?state=closed&per_page=100&sort=updated&direction=desc')
+   .then(function(r){return r.ok?r.json():[];})
+   .then(function(items){renderIssues('shipped',items,{dateField:'closed_at',limit:8,empty:'Nothing shipped yet.'});})
+   .catch(function(){document.getElementById('shipped').innerHTML='<li class="issue">Could not load shipped features. <a href="https://github.com/'+PUB+'/issues?q=is%3Aissue+is%3Aclosed" target="_blank">View on GitHub</a>.</li>';});
   // close modal on backdrop click
   document.getElementById('featModal').addEventListener('click',function(e){if(e.target===this)this.classList.remove('on');});
   // Download PDF: expand all airports, print, then restore prior open/closed state
