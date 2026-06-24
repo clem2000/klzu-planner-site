@@ -46,17 +46,42 @@ a{color:#7db3ff}@media(max-width:640px){table{font-size:12px}th,td{padding:6px}}
 .feat-col h3{font-size:13px;color:#8fd0ff;text-transform:uppercase;letter-spacing:.5px;margin:14px 0 6px}
 .feat li{margin:5px 0;font-size:13.5px}.feat .live li::marker{color:#1a9850}.feat .soon li::marker{color:#d9a300}
 .feat .issue{color:var(--muted);font-size:12px}
+.nav .pdf{background:#33261d;border-color:#d9a300;color:#ffe6b0}
+@media print{
+  body{background:#fff;color:#111}
+  .nav,.modal,#fbNav,.controls{display:none !important}
+  .wrap{max-width:100%;padding:0}
+  header.hd{background:#fff;border:1px solid #ccc}
+  header.hd h1,header.hd .sub,.summary .b b,.code,.aptname{color:#111}
+  .card,.kv,.days .d,.corridor .c,.lower,.stamp,details.apt,details.sub,.summary .b{background:#fff;border:1px solid #ccc;color:#111}
+  h2,h3.reg,.secttl,.kv .k,.days .d b{color:#222}
+  .meta,.muted{color:#444}
+  .asof{background:#f2f2f2;border:1px solid #ccc;color:#333}
+  table{border:1px solid #ccc}
+  th{background:#eee !important;color:#111 !important}
+  td{border-bottom:1px solid #ddd;color:#111}
+  .legend{color:#444}
+  details.apt,details.sub{break-inside:avoid}
+  details.apt[open] .detail{display:block}
+  /* expand all airports for print */
+  details.apt,details.sub{display:block}
+  details.apt>.detail{display:block !important}
+  a{color:#111;text-decoration:none}
+  .caution{background:#fff;border:1px solid #999;color:#111}
+  @page{margin:0.6in}
+}
 </style></head><body><div class="wrap">
 <nav class="nav">
   <a class="ext" href="https://www.flightcircle.com/v1/#/schedule" target="_blank" rel="noopener">🗓 Flight Circle</a>
   <a class="ext" href="https://foreflight.com/" target="_blank" rel="noopener">🧭 ForeFlight</a>
   <a class="ext" href="https://www.flightaware.com/live/flight/N201MD" target="_blank" rel="noopener">📡 Where is my plane</a>
+  <button class="pdf" onclick="klzuPrint()">⬇ Download PDF</button>
   <button class="ft" onclick="document.getElementById('featModal').classList.add('on')">★ Features</button>
   <a class="fb" id="fbNav" href="#" target="_blank" rel="noopener">💬 Feedback</a>
 </nav>
 <header class="hd"><h1>✈ KLZU Weekend Aviation Planner — N201MD</h1>
 <div class="sub">Mooney M20J/201 · based KLZU (Lawrenceville/Gwinnett, GA) · window <b>Fri Jun 26 – Mon Jun 29, 2026</b></div>
-<div class="asof">Last updated Wednesday Jun 24, 2026 · 6:36 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
+<div class="asof">Last updated Wednesday Jun 24, 2026 · 7:21 PM ET &nbsp;·&nbsp; Next scheduled run: Friday Jun 26 · 7:00 AM ET</div>
 <div class="legend"><span class="pill vfr">🟢 VFR</span> <span class="pill lvfr">🟡 LVFR</span> <span class="pill ifr">🟠 IFR</span> <span class="pill lifr">🔴 LIFR</span> &nbsp; ⛈ convection · 🌫 fog · 🌬 wind · ▸ tap an airport; each has raw METAR/TAF + sources</div></header>
 
 <section><h2>Executive summary</h2><div class="summary">
@@ -869,13 +894,13 @@ TAF KBED 241720Z 2418/2518 28010G20KT P6SM FEW060 FM242300 30005KT P6SM SCT200 F
 KLZU METAR METAR KLZU 242156Z 07003… ; live METAR/TAF for all 29 via AWC APIs ·
 Winds aloft FBUS31 KWNO 241958 (valid 250000Z) · NWS gridpoint FFC + CHS · FFC AFD 255 PM EDT Wed Jun 24 ·
 SPC Day 1/2/3 (no SE severe) · G-AIRMET / Convective SIGMET (16, FL/Gulf) / CWA · FAA Airport Status/Delays API (KOPF delay active) ·
-Fuel: best-effort (verify) · NOTAMs: pending FAA/SkyLink NOTAM API · 7 proxied TAFs labeled per airport · FAA runway: Chart Supplement current cycle.<br>
+Fuel: best-effort (verify) · NOTAMs: pending FAA/SkyLink NOTAM API · 7 proxied TAFs labeled per airport · FAA chart cycle: VFR Sectional Ed. 96 (eff. 05/14/2026); Chart Supplement Ed. 3 (eff. 05/14/2026).<br>
 Raw payloads + SHA-256 archived this run.</div></section>
 
 <div class="caution">⚠ <b>Pre-planning only — not an official weather briefing.</b> Verify an official briefing, METAR/TAF/GFA/SIGMET/CWA, NOTAMs, TFRs, runway conditions, fuel, W&B, performance, and personal minimums before flight.</div>
 <div style="text-align:center;color:#9fb0c0;font-size:12px;margin-top:18px;padding-bottom:70px">
 Shared planning page for N201MD &amp; flying partners · static snapshot of the latest scheduled run · refreshed Mon/Wed/Fri/Sat AM ET<br>
-Last updated Wednesday Jun 24, 2026 · 6:36 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
+Last updated Wednesday Jun 24, 2026 · 7:21 PM ET · Next scheduled run: Friday Jun 26 · 7:00 AM ET · Have a suggestion? Use the <b>Feedback</b> button.
 </div>
 </div>
 
@@ -928,6 +953,15 @@ Last updated Wednesday Jun 24, 2026 · 6:36 PM ET · Next scheduled run: Friday 
    }).catch(function(){document.getElementById('backlog').innerHTML='<li class="issue">Could not load issues. <a href="https://github.com/'+PUB+'/issues" target="_blank">View on GitHub</a>.</li>';});
   // close modal on backdrop click
   document.getElementById('featModal').addEventListener('click',function(e){if(e.target===this)this.classList.remove('on');});
+  // Download PDF: expand all airports, print, then restore prior open/closed state
+  window.klzuPrint=function(){
+    var dets=Array.prototype.slice.call(document.querySelectorAll('details.apt'));
+    var prev=dets.map(function(d){return d.open;});
+    dets.forEach(function(d){d.open=true;});
+    var restore=function(){dets.forEach(function(d,i){d.open=prev[i];});window.removeEventListener('afterprint',restore);};
+    window.addEventListener('afterprint',restore);
+    window.print();
+  };
 })();
 </script>
 </body></html>
