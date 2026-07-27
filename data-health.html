@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KLZU Data Health</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#182536;--muted:#5b6878;--line:#d8e0ea;--ok:#167246;--warn:#9a6200;--bad:#a22b35;--nav:#11283f}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:#125f9f} .wrap{max-width:1180px;margin:auto;padding:0 20px 48px}
+nav{background:var(--nav);padding:14px 20px} nav .inner{max-width:1140px;margin:auto;display:flex;gap:20px;align-items:center}
+nav a{color:#fff;font-weight:700;text-decoration:none} nav a[aria-current=page]{border-bottom:3px solid #65c5ff}
+header{padding:42px 0 22px} h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin:0 0 12px} h2{margin-top:0}
+.lead{font-size:1.15rem;color:var(--muted);max-width:760px} .statusline{padding:12px 16px;background:#e7eef6;border-radius:8px}
+.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 5px 18px #17324d12}
+.hero{padding:24px;margin:18px 0} .hero strong{font-size:1.45rem} .quality{text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0} .card{padding:20px} .metric{font-size:2rem;font-weight:800}
+.ok-text{color:var(--ok)} .warn-text{color:var(--warn)} .bad-text{color:var(--bad)}
+.table-card{overflow:hidden} .table-scroll{overflow-x:auto} table{width:100%;border-collapse:collapse;background:var(--card)}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top} th{background:#edf3f8;font-size:.85rem;text-transform:uppercase;letter-spacing:.04em}
+.badge{display:inline-block;border-radius:999px;padding:3px 9px;font-size:.8rem;font-weight:800;background:#e8edf2}
+.badge.ok,.badge.empty{background:#dff3e8;color:var(--ok)} .badge.partial,.badge.stale,.badge.out_of_window,.badge.disabled{background:#fff0cf;color:#795000}
+.badge.unavailable,.badge.unknown,.badge.error,.badge.failed{background:#f9dfe2;color:var(--bad)}
+details{margin-top:20px} summary{cursor:pointer;font-weight:700} .definitions li{margin:7px 0}
+@media(max-width:720px){.grid{grid-template-columns:1fr} th:nth-child(5),td:nth-child(5){display:none}}
+</style></head><body>
+<nav aria-label="Site navigation"><div class="inner"><a href="index.html">Planner</a><a href="data-health.html" aria-current="page">Data Health</a></div></nav>
+<div class="wrap"><header><h1>Data Health</h1>
+<p class="lead">A readable view of the external weather, airport, NOTAM, chart, and forecast products used by the KLZU planner. Unavailable, stale, partial, or failed data is never shown as favorable.</p></header>
+<p id="healthStatus" class="statusline" role="status" aria-live="polite">Loading verified live status; showing the static snapshot meanwhile.</p>
+<section class="hero" aria-labelledby="overall-heading"><h2 id="overall-heading">Overall status</h2>
+<strong class="quality">Critical</strong>
+<p>Planner quality gate for Fri Jul 31 – Mon Aug 3, 2026. Snapshot generated <span id="generatedAt">2026-07-27T23:17:59.367745+00:00</span>.</p></section>
+<section class="grid" aria-label="Source status summary">
+<article class="card"><div class="metric ok-text" id="healthyCount">6</div><strong>Healthy products</strong></article>
+<article class="card"><div class="metric warn-text" id="attentionCount">4</div><strong>Need attention</strong></article>
+<article class="card"><div class="metric bad-text" id="unavailableCount">2</div><strong>Unavailable products</strong></article>
+</section>
+<section class="card table-card" aria-labelledby="sources-heading"><div style="padding:20px 20px 0"><h2 id="sources-heading">Source and product status</h2></div>
+<div class="table-scroll"><table><thead><tr><th>Source</th><th>Product</th><th>Status</th><th>What it means</th><th>Observed</th></tr></thead>
+<tbody id="healthRows"><tr data-state="unavailable"><td><strong>AWC METAR</strong></td><td>AWC METAR</td><td><span class="badge unavailable">Unavailable</span></td><td>29/30 airport checks healthy</td><td>2026-07-27T23:17:59.740854+00:00</td></tr><tr data-state="unavailable"><td><strong>AWC TAF</strong></td><td>AWC TAF</td><td><span class="badge unavailable">Unavailable</span></td><td>0/30 airport checks healthy</td><td>2026-07-27T23:17:59.740854+00:00</td></tr><tr data-state="unsupported"><td><strong>FAA Airport Status</strong></td><td>FAA Airport Status</td><td><span class="badge unsupported">Unsupported</span></td><td>0/30 airport checks healthy</td><td>2026-07-27T23:17:59.740854+00:00</td></tr><tr data-state="disabled"><td><strong>FAA NMS NOTAM</strong></td><td>FAA NMS NOTAM</td><td><span class="badge disabled">Disabled</span></td><td>0/30 airport checks healthy</td><td>Not reported</td></tr><tr data-state="ok"><td><strong>Iowa State GFS Extended (MEX) MOS</strong></td><td>MEX</td><td><span class="badge ok">Ok</span></td><td>30/30 airport checks healthy</td><td>2026-07-27T23:18:03.882880+00:00</td></tr><tr data-state="out_of_window"><td><strong>Iowa State GFS MOS</strong></td><td>GFS</td><td><span class="badge out_of_window">Out Of Window</span></td><td>0/30 airport checks healthy</td><td>2026-07-27T23:18:03.330724+00:00</td></tr><tr data-state="ok"><td><strong>Iowa State MOS selection (GFS / GFS Extended MEX)</strong></td><td>Iowa State MOS selection (GFS / GFS Extended MEX)</td><td><span class="badge ok">Ok</span></td><td>30/30 airport checks healthy</td><td>2026-07-27T23:18:03.882880+00:00</td></tr><tr data-state="partial"><td><strong>National Weather Service</strong></td><td>Timed outlook board</td><td><span class="badge partial">Partial</span></td><td>3/4 planned days healthy</td><td>2026-07-27T23:18:04.363704+00:00</td></tr><tr data-state="ok"><td><strong>Aviation Weather Center</strong></td><td>CWA</td><td><span class="badge ok">Ok</span></td><td>Route-hazard feed</td><td>2026-07-27T23:18:01.964669+00:00</td></tr><tr data-state="ok"><td><strong>Aviation Weather Center</strong></td><td>G-AIRMET</td><td><span class="badge ok">Ok</span></td><td>Route-hazard feed</td><td>2026-07-27T23:18:01.964669+00:00</td></tr><tr data-state="ok"><td><strong>Aviation Weather Center</strong></td><td>SIGMET</td><td><span class="badge ok">Ok</span></td><td>Route-hazard feed</td><td>2026-07-27T23:18:01.964669+00:00</td></tr><tr data-state="ok"><td><strong>Federal Aviation Administration</strong></td><td>Chart cycle</td><td><span class="badge ok">Ok</span></td><td>FAA chart cycle: VFR Sectional Ed. 97 (eff. 07/09/2026); Chart Supplement Ed. 4 (eff. 07/09/2026)</td><td>07/09/2026</td></tr></tbody></table></div></section>
+<details class="card"><summary>Status definitions and technical detail</summary><div style="padding:0 20px 20px">
+<ul class="definitions"><li><strong>Healthy:</strong> usable evidence was available for the requested scope.</li>
+<li><strong>Partial / stale:</strong> some evidence is present, but coverage or freshness is incomplete.</li>
+<li><strong>Unavailable / failed:</strong> the product cannot support a favorable planner result.</li></ul>
+<p>Run ID: <code id="runId">klzu_20260727_231759</code>. The page keeps this generated snapshot unless a newer, bounded, contract-valid <code>/v1/current</code> response passes validation.</p>
+</div></details></div>
+<script>
+(function(){
+  "use strict";
+  var endpoint="https://klzu-live-api.cle-6e7.workers.dev/v1/current"; if(!endpoint) return;
+  var status=document.getElementById("healthStatus"), fallback=new Date("2026-07-27T23:17:59.367745+00:00");
+  var keys=["source_name","scope_type","scope_key","product","state","fetch_state","payload_state","environment","fetched_at","issued_at","valid_from","valid_through","latency_ms","record_count","accepted_count","rejected_count","target_dates_json","partial_target_dates_json","dates_with_points_json","safe_reason_code"];
+  function node(tag,text,cls){var n=document.createElement(tag);if(text!==null)n.textContent=String(text);if(cls)n.className=cls;return n;}
+  function validRow(row){return row&&typeof row==="object"&&!Array.isArray(row)&&Object.keys(row).length===keys.length&&Object.keys(row).every(function(k){return keys.includes(k);});}
+  function rank(state){state=String(state||"unknown").toLowerCase();return ["ok","empty"].includes(state)?0:["partial","disabled","out_of_window"].includes(state)?1:state==="stale"?2:3;}
+  function group(rows){
+    var grouped=new Map();
+    rows.forEach(function(row){var key=String(row.source_name)+"\u0000"+String(row.product);var item=grouped.get(key);if(!item){item={source:row.source_name,product:row.product,state:row.state,observed:row.fetched_at||row.issued_at||row.valid_through||"Not reported",count:0,healthy:0};grouped.set(key,item);}item.count++;if(rank(row.state)===0)item.healthy++;if(rank(row.state)>rank(item.state))item.state=row.state;});
+    return Array.from(grouped.values()).sort(function(a,b){return String(a.source).localeCompare(String(b.source))||String(a.product).localeCompare(String(b.product));});
+  }
+  function render(payload,generated){
+    var rows=group(payload.data.source_health), body=document.createElement("tbody"), counts=[0,0,0];
+    rows.forEach(function(item){var state=String(item.state||"unknown").toLowerCase(),bucket=rank(state)===0?0:rank(state)===3?2:1;counts[bucket]++;
+      var tr=node("tr",null);tr.dataset.state=state;tr.appendChild(node("td",item.source));tr.appendChild(node("td",item.product));
+      var stateCell=node("td",null);stateCell.appendChild(node("span",state.replaceAll("_"," "),"badge "+state));tr.appendChild(stateCell);
+      tr.appendChild(node("td",item.healthy+"/"+item.count+" checks healthy"));tr.appendChild(node("td",item.observed));body.appendChild(tr);
+    });
+    document.getElementById("healthRows").replaceWith(body);body.id="healthRows";
+    document.getElementById("healthyCount").textContent=counts[0];document.getElementById("attentionCount").textContent=counts[1];document.getElementById("unavailableCount").textContent=counts[2];
+    document.getElementById("generatedAt").textContent=generated.toLocaleString();document.getElementById("runId").textContent=payload.run_id;
+    status.textContent="Verified live source status loaded. Static snapshot remains the fallback.";
+  }
+  var controller=new AbortController(),timer=setTimeout(function(){controller.abort();},8000);
+  fetch(endpoint,{method:"GET",headers:{Accept:"application/json"},credentials:"omit",cache:"no-store",signal:controller.signal})
+    .then(function(response){if(!response.ok||!(response.headers.get("content-type")||"").toLowerCase().includes("application/json"))throw new Error("response");return Promise.all([response.json(),response.headers.get("etag")]);})
+    .then(function(result){var payload=result[0],etag=result[1],generated=new Date(payload.generated_at),readAt=new Date(payload.database_read_at);
+      if(!payload||payload.api_version!=="v1"||payload.schema_version!==1||!/^klzu_[0-9]{8}_[0-9]{6}$/.test(payload.run_id||""))throw new Error("contract");
+      if(!payload.integrity||!/^[0-9a-f]{64}$/.test(payload.integrity.projection_sha256||""))throw new Error("integrity");
+      if(!payload.freshness||!["fresh","delayed","stale","unknown"].includes(payload.freshness.state)||!Number.isInteger(payload.freshness.stale_after_seconds))throw new Error("freshness");
+      var expected='W/"'+payload.integrity.projection_sha256+"-"+payload.freshness.state+"-t"+Math.floor(readAt.getTime()/60000)+'"';
+      if(!etag||(etag!==expected&&etag!==expected.slice(2)))throw new Error("etag");
+      if(!payload.data||Object.keys(payload.data).sort().join(",")!=="airports,board,hazards,run,source_health,summary"||!Array.isArray(payload.data.source_health)||payload.data.source_health.length>500||!payload.data.source_health.every(validRow))throw new Error("shape");
+      if(!isFinite(generated.getTime())||!isFinite(readAt.getTime())||(isFinite(fallback.getTime())&&generated<fallback))throw new Error("older");
+      render(payload,generated);
+    }).catch(function(){status.textContent="Live status unavailable or invalid; showing the verified static snapshot.";}).finally(function(){clearTimeout(timer);});
+})();
+</script></body></html>
