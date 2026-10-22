@@ -1,0 +1,56 @@
+{
+  "KAJR": {
+    "author": "ТимофейЛееСуда (TLSuda)",
+    "source": "https://commons.wikimedia.org/wiki/File:Mauldin_House_-_Clarkesville,_GA.jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "caption": "Historic Mauldin House, Clarkesville · December 2013 photograph; not current foliage or a promise of interior access",
+    "changes": "Resized without upscaling to fit 1200 × 1200 pixels and JPEG-compressed for mobile. Thumbnail presentation may crop via CSS. Adapted image retains stated source license.",
+    "asset": "assets/photo-5e98f3e64f7fd74b.jpg"
+  },
+  "KDZJ": {
+    "author": "John Trainor",
+    "source": "https://commons.wikimedia.org/wiki/File:Union_County_Georgia_Courthouse.jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "caption": "Old Union County Courthouse, Blairsville · August 2006 photograph; representative destination scene",
+    "changes": "Resized without upscaling to fit 1200 × 1200 pixels and JPEG-compressed for mobile. Thumbnail presentation may crop via CSS. Adapted image retains stated source license.",
+    "asset": "assets/photo-02e9f5124684c370.jpg"
+  },
+  "KAVL": {
+    "author": "Ken Thomas",
+    "source": "https://commons.wikimedia.org/wiki/File:NCArboretum-27527-1.jpg",
+    "license": "Public domain, released worldwide by photographer",
+    "license_url": "https://commons.wikimedia.org/wiki/File:NCArboretum-27527-1.jpg#Licensing",
+    "caption": "Blue Ridge Quilt Garden, NC Arboretum · July 2008 photograph. ALTERNATIVE KAVL activity, not Sierra Nevada and not current fall appearance.",
+    "changes": "Resized without upscaling to fit 1200 × 1200 pixels and JPEG-compressed for mobile. Thumbnail presentation may crop via CSS. Adapted image retains stated source license.",
+    "asset": "assets/photo-302c5791d3ed223e.jpg"
+  },
+  "KCVC": {
+    "author": "Haha169",
+    "source": "https://commons.wikimedia.org/wiki/File:Covington_square.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Historic Covington square, including Newton County Courthouse and Mystic Grill façade; October 2012 photograph, not current conditions.",
+    "changes": "Resized without upscaling to fit 1200 × 1200 pixels and JPEG-compressed for mobile. Thumbnail presentation may crop via CSS. Adapted image retains stated source license.",
+    "asset": "assets/photo-b631c5845d92c964.jpg"
+  },
+  "KAHN": {
+    "author": "GAgayle",
+    "source": "https://commons.wikimedia.org/wiki/File:Herty_Field_-_North_Campus.JPG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Herty Field fountain on UGA’s North Campus, September 2012; this is NOT the State Botanical Garden.",
+    "changes": "Resized without upscaling to fit 1200 × 1200 pixels and JPEG-compressed for mobile. Thumbnail presentation may crop via CSS. Adapted image retains stated source license.",
+    "asset": "assets/photo-f2497d28bd33e941.jpg"
+  },
+  "1A5": {
+    "author": "Warren LeMay",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_Street,_Franklin,_NC_(32781600508).jpg",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "caption": "Main Street in Franklin, North Carolina, January 2019; representative historic streetscape, not current foliage or venue interiors.",
+    "asset": "assets/photo-c31dac8630a6542a.jpg",
+    "changes": "Resized without upscaling and JPEG-compressed for mobile; thumbnail may crop via CSS."
+  }
+}
