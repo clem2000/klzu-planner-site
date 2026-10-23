@@ -1,0 +1,1395 @@
+{
+  "research_date": "2026-10-22",
+  "venue_hours_timezone": "local to destination, distinct from planner Eastern time",
+  "records": [
+    {
+      "destination": {
+        "id": "KBED",
+        "name": "Bedford / Boston",
+        "city": "Bedford and Concord, Massachusetts",
+        "tagline": "Revolutionary history near the runway; Boston beyond",
+        "description": "Concord gives this long-range destination a compact historic first day; Boston is a separate, longer urban excursion.",
+        "ground": "Concord approximately 15\u201325 min; central Boston approximately 35\u201370+ min depending on traffic.",
+        "transport": "Plan a rental car or arranged driver from the GA FBO; Massport airport information is linked, but no specific provider availability is verified. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.massport.com/hanscom-field"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "North Bridge, Minute Man National Historical Park",
+          "category": "Things to do",
+          "description": "Walk the riverside Revolutionary War site and visit the nearby exhibits when open. This is the Concord unit, not a promise that every park building is open.",
+          "url": "https://home.nps.gov/mima/planyourvisit/north-bridge-visitor-center.htm",
+          "hours_note": "Outdoor visit in daylight; visitor-center dates and seasonal hours vary. Check NPS alerts before travel. Current closure status is not certified: the NPS alert feed did not render in this research tool. Recheck the linked official alerts before visiting.",
+          "time_fit": "1\u20132 hours; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing",
+          "alert_source": "https://www.nps.gov/mima/planyourvisit/conditions.htm"
+        },
+        {
+          "name": "Concord\u2019s Colonial Inn dining",
+          "category": "Dining",
+          "description": "A historic inn setting on Monument Square with several dining rooms and tavern-style spaces; a characterful meal rather than a skyline-view restaurant.",
+          "url": "https://www.concordscolonialinn.com/restaurants/merchants-row/",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "60\u201390 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Boston Freedom Trail, self-guided segment",
+          "category": "Things to do",
+          "description": "Use the NPS route and audio guide for a selected section of Boston\u2019s historic trail; the city excursion is separate from nearby Concord.",
+          "url": "https://www.nps.gov/bost/planyourvisit/index.htm",
+          "hours_note": "Outdoor route is distinct from individual sites, which have their own hours, admissions and closures. Current closure status is not certified: the NPS alert feed did not render in this research tool. Recheck the linked official alerts before visiting.",
+          "time_fit": "Half day; visit time excludes airport transfers",
+          "drive_estimate": "35\u201370+ min one way from the airport; planning estimate, not live routing",
+          "alert_source": "https://www.nps.gov/bost/planyourvisit/conditions.htm"
+        }
+      ],
+      "sources": [
+        "https://www.massport.com/hanscom-field",
+        "https://home.nps.gov/mima/planyourvisit/north-bridge-visitor-center.htm",
+        "https://www.concordscolonialinn.com/restaurants/merchants-row/",
+        "https://www.nps.gov/bost/planyourvisit/index.htm",
+        "https://www.nps.gov/mima/planyourvisit/conditions.htm",
+        "https://www.nps.gov/bost/planyourvisit/conditions.htm"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "sources": [
+          "https://www.nps.gov/mima/planyourvisit/conditions.htm",
+          "https://www.nps.gov/bost/planyourvisit/conditions.htm"
+        ],
+        "state": "Uncertain: alert pages fetched but dynamic alerts not rendered. Normal hours are not proof that every area is open."
+      }
+    },
+    {
+      "destination": {
+        "id": "KBFM",
+        "name": "Mobile / Mobile Bay",
+        "city": "Mobile / Mobile Bay",
+        "tagline": "Battleship + bay-view seafood",
+        "description": "A waterfront history day with time to explore the battleship, followed by a seafood meal overlooking Mobile Bay.",
+        "desc": "A waterfront history day with time to explore the battleship, followed by a seafood meal overlooking Mobile Bay.",
+        "ground": "Allow 15\u201325 min from BFM to Battleship Memorial Park; 20\u201330 min to Felix\u2019s on the Causeway. Estimates; tunnel/causeway traffic varies.",
+        "transport": "Airport authority identifies Signature as the on-field FBO. Arrange rental delivery or a round-trip driver with the correct BFM pickup point; car inventory, courtesy-car terms and late return are not verified. Do not use Mobile Regional (MOB) transfer information as BFM confirmation.",
+        "transport_sources": [
+          "https://www.mobileairportauthority.com/downtown/airport"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 290,
+        "native_eta": "2h00",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "USS ALABAMA Battleship Memorial Park",
+          "category": "Things to do",
+          "description": "Explore the battleship and military-history exhibits at an unhurried pace on the bayfront. Shipboard routes involve stairs and confined spaces; select a manageable route.",
+          "url": "https://www.ussalabama.com/plan-your-visit/admissions/",
+          "hours_note": "Official daily 08:00\u201317:00; last ticket 16:00. Closed Christmas; holiday exceptions apply.",
+          "time_fit": "Allow 2\u20133 hours for a substantial visit.",
+          "drive_estimate": "15\u201325 min each way from BFM, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Felix\u2019s Fish Camp",
+          "category": "Dining / bay view",
+          "description": "Gulf seafood and steak on the Mobile Causeway, with the bay setting explicitly documented by the restaurant. A sunset table is a request, not a guarantee.",
+          "url": "https://www.felixsfishcamp.com/",
+          "hours_note": "Current meal-service hours were not established on the checked official page; verify before choosing a dining time.",
+          "time_fit": "Allow 75\u201390 min; table availability unconfirmed.",
+          "drive_estimate": "20\u201330 min from BFM; about 10\u201315 min from the battleship park, estimates",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.mobileairportauthority.com/downtown/airport",
+        "https://www.ussalabama.com/plan-your-visit/admissions/",
+        "https://www.felixsfishcamp.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KCRE",
+        "name": "North Myrtle Beach",
+        "city": "North Myrtle Beach, South Carolina",
+        "tagline": "Salt-marsh boardwalks and Intracoastal dining",
+        "description": "Use Grand Strand Airport for the north end: a nature preserve and a waterfront meal, with driving between them rather than an implied single walkable district.",
+        "ground": "Heritage Shores approximately 20\u201330 min; Barefoot Landing approximately 10\u201315 min.",
+        "transport": "Plan rental or arranged transport through the FBO. AirNav lists Beach Aviation Services at CRE; rental availability is not independently confirmed. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://airnav.com/airport/KCRE/A"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Heritage Shores Nature Preserve",
+          "category": "Things to do",
+          "description": "A compact salt-marsh preserve with walking paths and boardwalk views in Cherry Grove; a calmer alternative to the main beach strip.",
+          "url": "https://parks.nmb.us/Facilities/Facility/Details/Heritage-Shores-Nature-Preserve-10",
+          "hours_note": "Check city operating hours and boardwalk/shoreline closure notices; plan daylight.",
+          "time_fit": "45\u201390 min; visit time excludes airport transfers",
+          "drive_estimate": "20\u201330 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "LuLu\u2019s at Barefoot Landing",
+          "category": "Dining",
+          "description": "Casual Intracoastal waterfront dining, selected for the setting and lively atmosphere. Any live performance must be checked against the chosen date.",
+          "url": "https://lulusfunfoodmusic.com/venue/north-myrtle-beach/",
+          "hours_note": "Check venue hours and event schedule; no specific music performance or table availability promised.",
+          "time_fit": "60\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "10\u201315 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://airnav.com/airport/KCRE/A",
+        "https://parks.nmb.us/Facilities/Facility/Details/Heritage-Shores-Nature-Preserve-10",
+        "https://lulusfunfoodmusic.com/venue/north-myrtle-beach/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KCRG",
+        "name": "Jacksonville / First Coast",
+        "city": "Jacksonville and Ponte Vedra, Florida",
+        "tagline": "Coastal woods and an Intracoastal fish camp",
+        "description": "A northeast-Florida nature-and-food weekend using Craig rather than the airline airport. The two stops are separate drives, so leave a generous half day or spread them over two days.",
+        "ground": "Timucuan / Theodore Roosevelt Area approximately 15\u201325 min; Palm Valley approximately 30\u201345 min.",
+        "transport": "Craig Air Center officially lists onsite Hertz, Enterprise and Avis rentals; actual vehicles and weekend arrangements remain unconfirmed. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://craigaircenter.com/fbo/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Theodore Roosevelt Area, Timucuan Preserve",
+          "category": "Things to do",
+          "description": "Coastal woodland and marsh-edge walking in the preserve. Choose a trail length to suit conditions; this option does not promise access to the Fort Caroline replica.",
+          "url": "https://www.nps.gov/timu/planyourvisit/hours.htm",
+          "hours_note": "NPS lists sunrise\u2013sunset for the Theodore Roosevelt Area; restrooms 09:00\u201316:30. Check alerts and trail conditions. Current closure status is not certified: the NPS alert feed did not render in this research tool. Recheck the linked official alerts before visiting.",
+          "time_fit": "1.5\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing",
+          "alert_source": "https://www.nps.gov/timu/planyourvisit/conditions.htm"
+        },
+        {
+          "name": "Palm Valley Fish Camp",
+          "category": "Dining",
+          "description": "Seafood restaurant in Palm Valley on the Intracoastal Waterway, making the longer drive a destination meal rather than just an airport lunch.",
+          "url": "https://palmvalleyfishcamp.com/",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "30\u201345 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://craigaircenter.com/fbo/",
+        "https://www.nps.gov/timu/planyourvisit/hours.htm",
+        "https://palmvalleyfishcamp.com/",
+        "https://www.nps.gov/timu/planyourvisit/conditions.htm"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "sources": [
+          "https://www.nps.gov/timu/planyourvisit/conditions.htm"
+        ],
+        "state": "Uncertain: alert pages fetched but dynamic alerts not rendered. Normal hours are not proof that every area is open."
+      }
+    },
+    {
+      "destination": {
+        "id": "KDAB",
+        "name": "Daytona / Ponce Inlet",
+        "city": "Daytona / Ponce Inlet",
+        "tagline": "Lighthouse climb + waterside lunch",
+        "description": "Trade a rushed beach stop for a weekend exploring Ponce Inlet\u2019s lighthouse and a relaxed meal beside the Halifax River.",
+        "desc": "Trade a rushed beach stop for a weekend exploring Ponce Inlet\u2019s lighthouse and a relaxed meal beside the Halifax River.",
+        "ground": "Allow 30\u201340 min from DAB to Ponce Inlet Lighthouse; 20\u201330 min to Port Orange dining. Event and beach traffic can add time.",
+        "transport": "DAB officially lists terminal rental-car counters and ground transportation. A private-aircraft arrival uses a separate FBO: confirm delivery or transfer to the counter, operating hours and return arrangements. No ride or car availability checked.",
+        "transport_sources": [
+          "https://www.flydaytonafirst.com/airport-information/rental-cars.stml",
+          "https://www.flydaytonafirst.com/airport-information/taxi-ground-transportation.stml"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 324,
+        "native_eta": "2h13",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Ponce Inlet Lighthouse and Museum",
+          "category": "Things to do",
+          "description": "Climb the historic lighthouse if comfortable with stairs, or explore the light-station grounds and maritime exhibits. The coastal setting is the attraction, not a promised sunset opening.",
+          "url": "https://www.ponceinlet.org/plan-your-visit/tips-for-visiting/",
+          "hours_note": "Official fall\u2013spring schedule: 10:00\u201318:00, last admission 17:00. Check holiday and special-event exceptions.",
+          "time_fit": "Allow 1.5\u20132 hours.",
+          "drive_estimate": "30\u201340 min each way from DAB, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Our Deck Down Under",
+          "category": "Dining / river view",
+          "description": "Casual seafood on the water in Port Orange, useful before or after the lighthouse rather than an additional cross-city detour.",
+          "url": "https://www.ourdeckdownunder.com/visit/",
+          "hours_note": "Official site directs visitors to its social pages for daily hours; fixed weekend service times not verified.",
+          "time_fit": "Allow 60\u201390 min; no seating or service speed promised.",
+          "drive_estimate": "20\u201330 min from DAB; roughly 15\u201325 min from the lighthouse, estimates",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.flydaytonafirst.com/airport-information/rental-cars.stml",
+        "https://www.flydaytonafirst.com/airport-information/taxi-ground-transportation.stml",
+        "https://www.ponceinlet.org/plan-your-visit/tips-for-visiting/",
+        "https://www.ourdeckdownunder.com/visit/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KECP",
+        "name": "Panama City Beach",
+        "city": "Panama City Beach",
+        "tagline": "Coastal nature + beach-club meal",
+        "description": "A longer coastal weekend with wetlands paths and a beachfront meal. St. Andrews State Park is not a confirmed-open option in this snapshot.",
+        "desc": "A longer coastal weekend with wetlands paths and a beachfront meal. St. Andrews State Park is not a confirmed-open option in this snapshot.",
+        "ground": "Allow 25\u201335 min to Conservation Park and 40\u201350 min to Schooners; beach traffic can be substantially slower.",
+        "transport": "ECP lists rental cars, taxi and shuttle providers. Confirm a pickup at the private-aircraft FBO rather than assuming airline-terminal collection. Vehicle inventory, weekend return hours and rideshare availability are unconfirmed.",
+        "transport_sources": [
+          "https://www.iflybeaches.com/airport-info/ground-transportation"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "Current closure concern: St. Andrews State Park official indexed alert and concession page show closure from Oct 7, 2026. Verify reopening and local beach/park conditions before choosing activities.",
+        "planner_covered": true,
+        "native_distance_nm": 237,
+        "native_eta": "1h38",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Panama City Beach Conservation Park",
+          "category": "Things to do",
+          "description": "Choose a signed trail or wetland boardwalk through protected pine and cypress habitat; bring a realistic turn-around time rather than attempting the entire network.",
+          "url": "https://www.pcbfl.gov/Facilities/Facility/Details/Conservation-Park-6",
+          "hours_note": "City trail rules: sunrise\u2013sunset. Current post-storm trail/boardwalk access needs a fresh check.",
+          "time_fit": "Allow 1\u20132 hours for a selected route.",
+          "drive_estimate": "25\u201335 min each way from ECP, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Schooners",
+          "category": "Dining / beachfront",
+          "description": "A casual restaurant directly on the beach, with Gulf views and a documented sunset-cannon tradition. Dining does not establish that swimming or every beach access is safe/open.",
+          "url": "https://www.schooners.com/",
+          "hours_note": "Official daily 11:00\u201321:00; no reservations. Recheck weather-related operation.",
+          "time_fit": "Allow 60\u201390 min plus possible queue.",
+          "drive_estimate": "40\u201350 min each way from ECP, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "St. Andrews State Park \u2014 reopen-only alternative",
+          "category": "Future things to do",
+          "description": "Beach and natural areas are appealing for a future weekend, but do not plan entry until the closure alert has been cleared. No Shell Island ferry or park access is promised.",
+          "url": "https://standrewsshellisland.com/hours-and-ferry-schedule/",
+          "hours_note": "Official park indexed alert and concession page report closure from Oct 7, 2026. Reopening not verified; normal 08:00\u2013sunset hours do NOT override the closure.",
+          "time_fit": "Future half-day only after verified reopening.",
+          "drive_estimate": "40\u201350 min each way from ECP, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.iflybeaches.com/airport-info/ground-transportation",
+        "https://www.pcbfl.gov/Facilities/Facility/Details/Conservation-Park-6",
+        "https://www.schooners.com/",
+        "https://standrewsshellisland.com/hours-and-ferry-schedule/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KFIN",
+        "name": "Flagler Beach / Palm Coast",
+        "city": "Flagler Beach and Palm Coast, Florida",
+        "tagline": "Coquina shoreline and an old-Florida oceanfront lunch",
+        "description": "An oceanfront meal remains the anchor. Washington Oaks is a conditional gardens/coquina-shoreline option: October maintenance brings possible daily partial closures and the visitor center is temporarily closed.",
+        "ground": "Washington Oaks approximately 30\u201340 min; Snack Jack approximately 15\u201325 min.",
+        "transport": "County airport page is the official reference. Plan a rental or arranged driver; no current car inventory, courtesy-car policy or pickup wait was verified. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.flaglercounty.gov/Government/Departments/Airport"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Washington Oaks Gardens State Park",
+          "category": "Things to do",
+          "description": "Formal gardens and a separate coquina shoreline, but NOT an unrestricted October outing: official maintenance notices warn that parts of the park may close day by day. The visitor center is temporarily closed. Treat this as a conditional option until access is checked.",
+          "url": "https://www.floridastateparks.org/parks-and-trails/washington-oaks-gardens-state-park",
+          "hours_note": "ACTIVE OFFICIAL ALERTS checked October 22, 2026: visitor center temporarily closed from September 25; October maintenance may close portions daily, with no scheduled weddings, special activities, photography sessions or interpretive programs. Posted general hours of 08:00\u2013sunset do not override these restrictions.",
+          "time_fit": "2\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "30\u201340 min one way from the airport; planning estimate, not live routing",
+          "status": "conditional_partial_closures"
+        },
+        {
+          "name": "High Tides at Snack Jack",
+          "category": "Dining",
+          "description": "Laid-back oceanfront seafood at Flagler Beach, with Atlantic views explicitly described by the restaurant. No particular table or sunset is guaranteed.",
+          "url": "https://www.snackjacks.com/",
+          "hours_note": "Official hours: Friday\u2013Sunday 11:00\u201321:00; also Monday\u2013Tuesday 11:00\u201321:00; closed Wednesday\u2013Thursday. Recheck for the actual weekend.",
+          "time_fit": "60\u201390 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://www.flaglercounty.gov/Government/Departments/Airport",
+        "https://www.floridastateparks.org/parks-and-trails/washington-oaks-gardens-state-park",
+        "https://www.snackjacks.com/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "source": "https://www.floridastateparks.org/parks-and-trails/washington-oaks-gardens-state-park",
+        "method": "Official page returned HTTP403 on direct open; current indexed official-page text supplied the two dated notices. No bypass or repeat direct fetch attempted.",
+        "state": "Restrictions verified; day-specific accessible areas unverified"
+      }
+    },
+    {
+      "destination": {
+        "id": "KGPT",
+        "name": "Gulfport / Ocean Springs",
+        "city": "Gulfport / Ocean Springs",
+        "tagline": "Bayou boardwalks + Gulf seafood",
+        "description": "A quiet coastal-nature walk and a characterful downtown seafood meal, with a full weekend to explore the Mississippi coast.",
+        "desc": "A quiet coastal-nature walk and a characterful downtown seafood meal, with a full weekend to explore the Mississippi coast.",
+        "ground": "Allow 30\u201340 min from GPT to Davis Bayou in Ocean Springs; 15\u201320 min to downtown Gulfport. These are separate areas, not adjacent stops.",
+        "transport": "Airport lists registered rental-car and ground-transportation providers. Arrange FBO-specific pickup and a reliable return; airline-terminal services do not prove an immediate GA pickup. Availability unconfirmed.",
+        "transport_sources": [
+          "https://www.flygpt.com/flygpt/ground-transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "NPS Oct 18 update states the Mississippi District reopened Oct 14 after the storm. Still check Davis Bayou-specific alerts and obey local debris/closure signs.",
+        "planner_covered": true,
+        "native_distance_nm": 337,
+        "native_eta": "2h18",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Davis Bayou, Gulf Islands National Seashore",
+          "category": "Things to do",
+          "description": "Walk selected trails and boardwalks overlooking coastal bayous, with wildlife-viewing opportunities rather than a guaranteed wildlife sighting.",
+          "url": "https://www.nps.gov/guis/planyourvisit/davis-bayou-area.htm",
+          "hours_note": "NPS area gate 08:00\u2013sunset; visitor center 09:00\u201316:00. Check current NPS alerts.",
+          "time_fit": "Allow 1\u20132 hours.",
+          "drive_estimate": "30\u201340 min each way from GPT, estimate",
+          "photo_path": null,
+          "alert_sources": [
+            "https://www.nps.gov/guis/learn/news/portions-of-gulf-islands-national-seashore-reopen-after-hurricane-isaias.htm"
+          ]
+        },
+        {
+          "name": "Half Shell Oyster House \u2014 Gulfport",
+          "category": "Dining",
+          "description": "A downtown seafood-and-oyster meal in a Southern/French Quarter-inspired setting. This is a character choice, not a verified waterfront-view table.",
+          "url": "https://www.halfshelloysterhouse.com/gulfport",
+          "hours_note": "Official Saturday 10:00\u201322:30; Sunday 10:00\u201321:30. Reconfirm holiday exceptions.",
+          "time_fit": "Allow 60\u201390 min; waitlist/table availability unconfirmed.",
+          "drive_estimate": "15\u201320 min each way from GPT, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.flygpt.com/flygpt/ground-transportation/",
+        "https://www.nps.gov/guis/planyourvisit/davis-bayou-area.htm",
+        "https://www.halfshelloysterhouse.com/gulfport",
+        "https://www.nps.gov/guis/learn/news/portions-of-gulf-islands-national-seashore-reopen-after-hurricane-isaias.htm"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KHPN",
+        "name": "White Plains / Hudson Valley",
+        "city": "Tarrytown and Irvington, New York",
+        "tagline": "Hudson River estates and a waterfront meal",
+        "description": "A lower-Hudson weekend with mansion grounds and river dining, avoiding the assumption that Manhattan is a quick airport transfer. Kykuit is not offered: its official site points visitors to possible 2027 tours.",
+        "ground": "Tarrytown / Irvington approximately 25\u201340 min.",
+        "transport": "Plan a rental or arranged car. County airport transport information is linked; GA pickup arrangements can differ from the airline terminal. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://airport.westchestergov.com/index.php?Itemid=4416&id=2561&option=com_content&view=article"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Lyndhurst Mansion and grounds",
+          "category": "Things to do",
+          "description": "Gothic Revival mansion and landscaped Hudson River estate; choose a scheduled interior tour plus a grounds walk rather than assuming walk-in entry.",
+          "url": "https://lyndhurst.org/visit/",
+          "hours_note": "Tour and grounds access are seasonal and ticketed; check the date-specific official calendar.",
+          "time_fit": "2\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "25\u201340 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Red Hat on the River",
+          "category": "Dining",
+          "description": "Irvington restaurant at 1 Bridge Street with a Hudson waterfront setting; request rather than assume a river-view table.",
+          "url": "https://www.redhatontheriver.com/",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "25\u201340 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://airport.westchestergov.com/index.php?Itemid=4416&id=2561&option=com_content&view=article",
+        "https://lyndhurst.org/visit/",
+        "https://www.redhatontheriver.com/",
+        "https://hudsonvalley.org/historic-sites/kykuit-the-rockefeller-estate/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KHSA",
+        "name": "Bay St. Louis",
+        "city": "Bay St. Louis",
+        "tagline": "Old Town wander + marina meal",
+        "description": "Small-town coastal character: independent shops, galleries and a waterside meal, without trying to turn Stennis into a quick walk-to-town airport.",
+        "desc": "Small-town coastal character: independent shops, galleries and a waterside meal, without trying to turn Stennis into a quick walk-to-town airport.",
+        "ground": "Allow 20\u201330 min from Stennis International to Old Town Bay St. Louis; estimates, not live routing.",
+        "transport": "Stennis official airport information is the starting point for FBO arrangements. Current rental delivery, crew-car excursion rules and rideshare pickup availability were not verified. Confirm a vehicle for the entire weekend; do not assume an airport courtesy car is an overnight rental.",
+        "transport_sources": [
+          "https://flystennis.com/airport/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 353,
+        "native_eta": "2h25",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Old Town Bay St. Louis",
+          "category": "Things to do",
+          "description": "Browse the arts-and-boutique district and walk the waterfront at your own pace. The recurring Second Saturday event is not promised on every weekend.",
+          "url": "https://www.baystlouisoldtown.com/",
+          "hours_note": "Outdoor stroll planned in daylight; each shop/gallery has its own hours. No specific event schedule assumed.",
+          "time_fit": "Allow 1\u20132 hours plus a meal.",
+          "drive_estimate": "20\u201330 min each way from HSA, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "The Blind Tiger \u2014 Bay St. Louis",
+          "category": "Dining / marina setting",
+          "description": "Casual seafood and a beach-town atmosphere beside the marina in Old Town. Choose it for location and setting, not an unverified review score.",
+          "url": "https://tbt-bsl.com/bay-st-louis-the-blind-tiger-bay-st-louis-locations",
+          "hours_note": "Official Friday/Saturday 11:00\u201322:00; Sunday 11:00\u201321:00.",
+          "time_fit": "Allow 60\u201390 min; waterfront seating unconfirmed.",
+          "drive_estimate": "20\u201330 min from HSA; walk within Old Town, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://flystennis.com/airport/",
+        "https://www.baystlouisoldtown.com/",
+        "https://tbt-bsl.com/bay-st-louis-the-blind-tiger-bay-st-louis-locations"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KHXD",
+        "name": "Hilton Head Island",
+        "city": "Hilton Head Island, South Carolina",
+        "tagline": "Wide beach walks and a working-waterfront meal",
+        "description": "Island time works better as a weekend: pair an Atlantic beach walk with Port Royal Sound seafood, rather than assuming all island attractions sit together.",
+        "ground": "Coligny approximately 20\u201330 min; Hudson\u2019s approximately 10\u201320 min.",
+        "transport": "Official airport page lists several transport choices. Arrange a rental or driver and confirm pickup at the GA FBO rather than assuming airline-terminal procedures. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.thehiltonheadislandairport.com/transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Coligny Beach Park",
+          "category": "Things to do",
+          "description": "Public beach access for a relaxed sand-and-surf walk, with nearby shops for a separate stop. Weather, tides and parking affect the experience.",
+          "url": "https://www.hiltonheadisland.org/explore/frequently-asked-questions",
+          "hours_note": "Check current beach regulations, parking and any weather closures; plan daylight.",
+          "time_fit": "1\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "20\u201330 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Hudson\u2019s Seafood House on the Docks",
+          "category": "Dining",
+          "description": "Seafood in an actual waterfront setting overlooking Port Royal Sound. The view is a venue feature, not a guarantee of a specific table.",
+          "url": "https://www.hudsonsonthedocks.com/",
+          "hours_note": "Official site says first come, first served and warns of peak-time waits. Check current kitchen hours.",
+          "time_fit": "75\u2013120 min plus possible wait; visit time excludes airport transfers",
+          "drive_estimate": "10\u201320 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://www.thehiltonheadislandairport.com/transportation/",
+        "https://www.hiltonheadisland.org/explore/frequently-asked-questions",
+        "https://www.hudsonsonthedocks.com/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KJKA",
+        "name": "Gulf Shores / Orange Beach",
+        "city": "Gulf Shores / Orange Beach",
+        "tagline": "Gulf pier + seaside dining",
+        "description": "A beach-oriented weekend with time for the state-park pier and an outdoor seafood meal near Perdido Pass.",
+        "desc": "A beach-oriented weekend with time for the state-park pier and an outdoor seafood meal near Perdido Pass.",
+        "ground": "Allow 15\u201325 min to Gulf State Park Pier; 25\u201335 min to The Gulf in Orange Beach. Beach-season and event traffic vary.",
+        "transport": "Official airport page lists Alamo/Enterprise and other ground transport. Confirm the general-aviation FBO pickup location, rental hours and return procedure; airline-terminal services are not proof of a car at your aircraft.",
+        "transport_sources": [
+          "https://flyjka.com/ground-transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 291,
+        "native_eta": "2h01",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Gulf State Park Fishing and Education Pier",
+          "category": "Things to do",
+          "description": "A Gulf-facing walk for water views and marine-life observation. Fishing is optional and requires the appropriate permits; no equipment rental is assumed.",
+          "url": "https://www.gulfshores.com/things-to-do/gulf-state-park-fishing-and-education-pier/",
+          "hours_note": "Official tourism confirms the attraction; current pier access hours and weather closures should be checked before arrival.",
+          "time_fit": "Allow 45\u201390 min, or combine with a separate beach afternoon.",
+          "drive_estimate": "15\u201325 min each way from JKA, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "The Gulf \u2014 Orange Beach",
+          "category": "Dining / waterfront",
+          "description": "Outdoor waterfront dining with a seasonal seafood-focused menu and a relaxed seaside setting. Outdoor seating depends on weather.",
+          "url": "https://thegulf.com/locations/orange-beach/",
+          "hours_note": "Official location page confirms venue and setting; exact weekend kitchen hours were not established. Verify before setting a meal time.",
+          "time_fit": "Allow 60\u201390 min; no reservation or table guarantee.",
+          "drive_estimate": "25\u201335 min each way from JKA, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://flyjka.com/ground-transportation/",
+        "https://www.gulfshores.com/things-to-do/gulf-state-park-fishing-and-education-pier/",
+        "https://thegulf.com/locations/orange-beach/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KJZI",
+        "name": "Charleston / Johns Island",
+        "city": "Johns Island and Charleston, South Carolina",
+        "tagline": "Ancient oak, Lowcountry cooking and harbor streets",
+        "description": "Stay close to Johns Island for the oak and dinner, then devote a separate half day to Charleston\u2019s historic waterfront.",
+        "ground": "Angel Oak / Wild Olive approximately 15\u201325 min; downtown Charleston approximately 30\u201350+ min.",
+        "transport": "Atlantic Aviation JZI is the official FBO source. Plan a rental or arranged driver; exact rental inventory and weekend pickup arrangements are not verified. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.atlanticaviation.com/locations/jzi/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Angel Oak Park",
+          "category": "Things to do",
+          "description": "See the sprawling live oak on Johns Island. Respect barriers and roots; this is a contemplative short visit, not a climbing activity.",
+          "url": "https://www.charleston-sc.gov/153/Angel-Oak",
+          "hours_note": "Municipal park has specific opening hours, including a different Sunday schedule; check the official page before going.",
+          "time_fit": "30\u201360 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Wild Olive",
+          "category": "Dining",
+          "description": "Italian cooking on Johns Island with a local Lowcountry ingredient focus, convenient for an island-based dinner rather than a second downtown drive.",
+          "url": "https://www.wildolive.com/",
+          "hours_note": "Check current dinner service hours and reservations; do not assume daytime lunch availability.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Charleston historic waterfront stroll",
+          "category": "Things to do",
+          "description": "Explore Waterfront Park and nearby historic streets on foot. Make it a separate half-day city visit, allowing for parking and bridge traffic.",
+          "url": "https://www.charleston-sc.gov/266/Park-Directory",
+          "hours_note": "Outdoor daylight visit; check local closures, heat and weather.",
+          "time_fit": "2\u20134 hours; visit time excludes airport transfers",
+          "drive_estimate": "30\u201350+ min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://www.atlanticaviation.com/locations/jzi/",
+        "https://www.charleston-sc.gov/153/Angel-Oak",
+        "https://www.wildolive.com/",
+        "https://www.charleston-sc.gov/266/Park-Directory"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KMYR",
+        "name": "Myrtle Beach",
+        "city": "Myrtle Beach, South Carolina",
+        "tagline": "Maritime forest, a beach pier and oceanfront food",
+        "description": "Choose the quieter state-park side of Myrtle Beach rather than treating the entire Grand Strand as one walkable destination.",
+        "ground": "State park and south-end oceanfront approximately 10\u201320 min, depending on GA FBO exit and traffic.",
+        "transport": "Official MYR transport page lists ground options. Rental counters and rideshare procedures at the airline terminal may require an additional transfer from the GA FBO. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.flymyrtlebeach.com/parking-transportation/transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Myrtle Beach State Park",
+          "category": "Things to do",
+          "description": "A beach and fishing-pier outing in a maritime-forest setting. The official park page announces ALL trails closed November\u2013January for maintenance; do not promise the nature-trail portion during that period.",
+          "url": "https://southcarolinaparks.com/myrtle-beach",
+          "hours_note": "Official page checked October 22, 2026: ALL trails closed November\u2013January for maintenance/construction. General park hours listed 06:00\u201322:00 March\u2013November and 06:00\u201320:00 December\u2013February; access can also be limited by capacity or weather. A separate October 17 morning pier event restriction has already elapsed.",
+          "time_fit": "2\u20134 hours; visit time excludes airport transfers",
+          "drive_estimate": "10\u201320 min one way from the airport; planning estimate, not live routing",
+          "status": "seasonal_trail_closure"
+        },
+        {
+          "name": "Damon\u2019s Grill",
+          "category": "Dining",
+          "description": "Casual ribs, steaks and an actual oceanfront setting on the south end of Myrtle Beach. Views are the reason to choose it, not an unsupported review score.",
+          "url": "https://www.ribsribsribs.com/",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "60\u201390 min; visit time excludes airport transfers",
+          "drive_estimate": "10\u201320 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://www.flymyrtlebeach.com/parking-transportation/transportation/",
+        "https://southcarolinaparks.com/myrtle-beach",
+        "https://www.ribsribsribs.com/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "source": "https://southcarolinaparks.com/myrtle-beach",
+        "state": "November\u2013January trail closure verified; beach/pier and day-of access still require current check"
+      }
+    },
+    {
+      "destination": {
+        "id": "KNEW",
+        "name": "New Orleans / lakefront",
+        "city": "New Orleans / lakefront",
+        "tagline": "Live oaks + lakefront seafood",
+        "description": "A relaxed New Orleans weekend centered on City Park\u2019s landscape and a Lake Pontchartrain meal, with optional city exploration on a separate half-day.",
+        "desc": "A relaxed New Orleans weekend centered on City Park\u2019s landscape and a Lake Pontchartrain meal, with optional city exploration on a separate half-day.",
+        "ground": "Allow 15\u201325 min from Lakefront Airport to City Park; 10\u201315 min to The Blue Crab. Urban traffic and events can change either.",
+        "transport": "Use the airport\u2019s FBO directory to arrange an independent rental or driver and confirm access/return hours. No courtesy car, on-demand ride or overnight vehicle use has been verified. This is Lakefront Airport, not airline airport MSY.",
+        "transport_sources": [
+          "https://lakefrontairport.com/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 389,
+        "native_eta": "2h38",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "City Park landscape walk",
+          "category": "Things to do",
+          "description": "Wander among mature live oaks, lagoons and selected park paths. Ticketed gardens and museums are separate choices, not automatically included in a free park walk.",
+          "url": "https://neworleanscitypark.org/",
+          "hours_note": "Choose daylight for the outdoor route; individual attractions maintain separate hours and closures.",
+          "time_fit": "Allow 1.5\u20133 hours, with time for a coffee stop.",
+          "drive_estimate": "15\u201325 min each way from NEW, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "The Blue Crab Restaurant and Oyster Bar",
+          "category": "Dining / lakefront",
+          "description": "Seafood at the New Orleans lakefront, suited to a leisurely meal rather than a rushed preflight stop. Lake-view seating is not guaranteed.",
+          "url": "https://thebluecrabnola.com/",
+          "hours_note": "Official Tuesday\u2013Saturday 11:00\u201321:00; Sunday 10:00\u201321:00, brunch 10:00\u201314:00. No reservations.",
+          "time_fit": "Allow 75\u201390 min plus possible wait.",
+          "drive_estimate": "10\u201315 min each way from NEW, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://lakefrontairport.com/",
+        "https://neworleanscitypark.org/",
+        "https://thebluecrabnola.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KOPF",
+        "name": "Miami / Key Biscayne",
+        "city": "Miami / Key Biscayne",
+        "tagline": "Beach day + skyline dinner",
+        "description": "A proper South Florida weekend: time on Key Biscayne and a waterfront meal with Miami skyline views. Long urban transfers make this a poor quick-stop proposition.",
+        "desc": "A proper South Florida weekend: time on Key Biscayne and a waterfront meal with Miami skyline views. Long urban transfers make this a poor quick-stop proposition.",
+        "ground": "Allow 45\u201375 min from OPF to Key Biscayne/Crandon Park and 40\u201365 min to Rusty Pelican; traffic can exceed these estimates.",
+        "transport": "Miami-Dade\u2019s OPF page identifies the executive airport and its FBOs. Arrange a rental or private transfer with your selected FBO. Do not apply MIA airline-terminal rental procedures to OPF; exact availability and fees are unconfirmed.",
+        "transport_sources": [
+          "https://www.miami-airport.com/opalocka.asp"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "Long-range planner option. Published planning ETE is not a nonstop fuel/range assessment; pilot must plan route, reserves, alternates and any fuel stop independently.",
+        "planner_covered": true,
+        "native_distance_nm": 521,
+        "native_eta": "3h30",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Crandon Park, Key Biscayne",
+          "category": "Things to do",
+          "description": "A beach-and-nature half-day on a barrier island. Choose the beach or nature center rather than assuming all watersports are included; personal kayak launches have restrictions.",
+          "url": "https://www.miamidade.gov/global/recreation/park/crandon-park.page",
+          "hours_note": "Nature center daily 09:00\u201316:00; other facilities have separate schedules. County park-office hours are not beach gate hours. Verify beach access and conditions.",
+          "time_fit": "Allow 2\u20134 hours plus substantial transfers.",
+          "drive_estimate": "45\u201375 min each way from OPF, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Rusty Pelican Miami",
+          "category": "Dining / skyline view",
+          "description": "Waterfront seafood dining on Key Biscayne with the Miami skyline across the bay. A view table, sunset timing and reservation are not secured.",
+          "url": "https://www.therustypelican.com/",
+          "hours_note": "Official venue confirms waterfront dining; current weekend meal periods were not established from the checked page. Verify before making a plan.",
+          "time_fit": "Allow 90 min for a leisurely meal; advance availability check recommended.",
+          "drive_estimate": "40\u201365 min each way from OPF, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.miami-airport.com/opalocka.asp",
+        "https://www.miamidade.gov/global/recreation/park/crandon-park.page",
+        "https://www.therustypelican.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KPNS",
+        "name": "Pensacola Beach",
+        "city": "Pensacola Beach",
+        "tagline": "Fort + barrier-island beach",
+        "description": "A full coastal day mixing historic Fort Pickens, a beach walk and sound-side seafood, rather than counting the entire outing as an airport lunch.",
+        "desc": "A full coastal day mixing historic Fort Pickens, a beach walk and sound-side seafood, rather than counting the entire outing as an airport lunch.",
+        "ground": "Allow 45\u201365 min from PNS to Fort Pickens and 30\u201345 min to The Grand Marlin. Bridge, toll and beach traffic may add substantial delay.",
+        "transport": "Airport officially lists rentals and ground transport. Confirm pickup at the GA FBO or a transfer to terminal rental counters, plus weekend return hours. No car or driver availability has been checked.",
+        "transport_sources": [
+          "https://www.flypensacola.com/ground-transportation"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/Chicago",
+        "hours_basis": "Venue hours are local Central time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "NPS Oct 18, 2026 update reopened Fort Pickens for day use but retained a boil-water notice. Campground and Battery Worth pavilion remain closed; Battery 234 Loop/Battery Cooper and visitor center have separate closures. Check the latest alerts; ordinary hours do not override closures.",
+        "planner_covered": true,
+        "native_distance_nm": 267,
+        "native_eta": "1h51",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Fort Pickens and Langdon Beach",
+          "category": "Things to do",
+          "description": "Explore the historic fort and select a beach or dune-side walk within Gulf Islands National Seashore. Beach access does not imply safe swimming; observe current surf and park warnings.",
+          "url": "https://www.nps.gov/guis/planyourvisit/fort-pickens-area.htm",
+          "hours_note": "Fort gate normally 08:00\u2013sunset. NPS Oct 18 reopened day use with a boil-water notice; campground/Battery Worth pavilion remain closed. Separate Battery 234/Cooper and visitor-center closures apply. Check the latest alerts before arrival.",
+          "time_fit": "Allow 2\u20134 hours for fort plus a short beach visit.",
+          "drive_estimate": "45\u201365 min each way from PNS, estimate",
+          "photo_path": null,
+          "alert_sources": [
+            "https://www.nps.gov/guis/learn/news/portions-of-gulf-islands-national-seashore-reopen-after-hurricane-isaias.htm",
+            "https://www.nps.gov/guis/planyourvisit/conditions.htm"
+          ]
+        },
+        {
+          "name": "The Grand Marlin \u2014 Pensacola Beach",
+          "category": "Dining / water view",
+          "description": "Seafood with documented Santa Rosa Sound views and sunset outlook toward Pensacola Bay. A specific view table is not promised.",
+          "url": "https://thegrandmarlin.com/pensacola/",
+          "hours_note": "Exact current weekend service hours not established on the checked official page; verify lunch/dinner period before selecting.",
+          "time_fit": "Allow 75\u201390 min, with reservation availability unconfirmed.",
+          "drive_estimate": "30\u201345 min each way from PNS, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.flypensacola.com/ground-transportation",
+        "https://www.nps.gov/guis/planyourvisit/fort-pickens-area.htm",
+        "https://thegrandmarlin.com/pensacola/",
+        "https://www.nps.gov/guis/learn/news/portions-of-gulf-islands-national-seashore-reopen-after-hurricane-isaias.htm",
+        "https://www.nps.gov/guis/planyourvisit/conditions.htm"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KROA",
+        "name": "Roanoke",
+        "city": "Roanoke, Virginia",
+        "tagline": "A mountaintop star and an elegant railway-era dinner",
+        "description": "Combine the Mill Mountain overlook with downtown Roanoke. More time lets the overlook feel like an actual visit instead of a rushed photo stop.",
+        "ground": "Downtown approximately 15\u201320 min; Mill Mountain approximately 25\u201335 min.",
+        "transport": "Official airport ground-transport page lists rental options; confirm GA pickup with the selected FBO. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://www.flyroa.com/ground-transportation"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Roanoke Star and Mill Mountain overlook",
+          "category": "Things to do",
+          "description": "A panoramic valley overlook beneath the city\u2019s landmark star. Drive to the overlook or allocate extra time for a proper hike; these are different outings.",
+          "url": "https://www.visitroanokeva.com/things-to-do/attractions/roanoke-star/",
+          "hours_note": "Plan daylight for views and check park road access; no weather visibility is guaranteed.",
+          "time_fit": "45\u201390 min for overlook; longer for trails; visit time excludes airport transfers",
+          "drive_estimate": "25\u201335 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "The Regency Room",
+          "category": "Dining",
+          "description": "Formal dining in the historic Hotel Roanoke, with French-inspired Southern cuisine. A restaurant visit only; no hotel stay is included.",
+          "url": "https://www.hotelroanoke.com/dining/regency_room/",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "90\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201320 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://www.flyroa.com/ground-transportation",
+        "https://www.visitroanokeva.com/things-to-do/attractions/roanoke-star/",
+        "https://www.hotelroanoke.com/dining/regency_room/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KSAV",
+        "name": "Savannah",
+        "city": "Savannah, Georgia",
+        "tagline": "Oak-shaded squares and a historic-house dinner",
+        "description": "A walkable historic-district weekend, with room for the squares, Forsyth Park and a leisurely meal rather than a dash from the airport.",
+        "ground": "Historic district approximately 25\u201340 min; Forsyth Park approximately 30\u201340 min.",
+        "transport": "Official airport page lists rentals, taxis and rideshare. Its airline-terminal pickup guidance does not establish pickup at a GA FBO. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://savannahairport.com/airport/ground-transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Forsyth Park and nearby historic squares",
+          "category": "Things to do",
+          "description": "Walk beneath live oaks, see the fountain and continue through the surrounding historic streets; choose a compact route and leave time to linger.",
+          "url": "https://visitsavannah.com/article/things-to-do-forsyth-park-first-time-guide",
+          "hours_note": "Outdoor daylight visit; event access and any closures should be checked for the chosen weekend.",
+          "time_fit": "1\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "30\u201340 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "The Olde Pink House",
+          "category": "Dining",
+          "description": "A historic-house restaurant for a distinctly Savannah evening; a sit-down meal rather than a view-driven waterfront venue.",
+          "url": "https://www.theoldepinkhouserestaurant.com/home",
+          "hours_note": "Check current service hours and table availability; popular dinner times should not be assumed available.",
+          "time_fit": "90\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "25\u201335 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://savannahairport.com/airport/ground-transportation/",
+        "https://visitsavannah.com/article/things-to-do-forsyth-park-first-time-guide",
+        "https://www.theoldepinkhouserestaurant.com/home"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KSGJ",
+        "name": "St. Augustine",
+        "city": "St. Augustine, Florida",
+        "tagline": "A waterfront fort and historic lanes",
+        "description": "A compact historic-center weekend with the Castillo and a leisurely Spanish-Cuban meal; leave time for parking and walking rather than measuring only the airport drive.",
+        "ground": "Historic center approximately 15\u201325 min including normal traffic, before parking and walking.",
+        "transport": "Official airport site links ground transportation and FBO services; confirm rental or driver arrangements and GA pickup point. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://sa-airport.com/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Castillo de San Marcos and the bayfront",
+          "category": "Things to do",
+          "description": "Explore the coquina fortress and waterfront setting, then continue into the historic streets. Thunderstorms can close the gun deck.",
+          "url": "https://www.nps.gov/casa/planyourvisit/hours.htm",
+          "hours_note": "NPS lists daily first admission 09:00, last admission 17:00 and exit by 17:15; closed Thanksgiving and Christmas. Recheck alerts. Current closure status is not certified: the NPS alert feed did not render in this research tool. Recheck the linked official alerts before visiting.",
+          "time_fit": "1.5\u20133 hours; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing",
+          "alert_source": "https://www.nps.gov/casa/planyourvisit/conditions.htm"
+        },
+        {
+          "name": "Columbia Restaurant, historic district",
+          "category": "Dining",
+          "description": "Spanish-Cuban dining in the historic district, convenient for a slow meal during a walking day; not a guaranteed water-view venue.",
+          "url": "https://www.columbiarestaurant.com/historic-district-st-augustine",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "15\u201325 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://sa-airport.com/",
+        "https://www.nps.gov/casa/planyourvisit/hours.htm",
+        "https://www.columbiarestaurant.com/historic-district-st-augustine",
+        "https://www.nps.gov/casa/planyourvisit/conditions.htm"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "sources": [
+          "https://www.nps.gov/casa/planyourvisit/conditions.htm"
+        ],
+        "state": "Uncertain: alert pages fetched but dynamic alerts not rendered. Normal hours are not proof that every area is open."
+      }
+    },
+    {
+      "destination": {
+        "id": "KSHD",
+        "name": "Shenandoah Valley",
+        "city": "Staunton and Shenandoah, Virginia",
+        "tagline": "Skyline overlooks and a historic Staunton dinner",
+        "description": "Use the valley airport for a scenic-drive day and a walkable Staunton evening. Mountain-road time is part of the experience, not hidden in the transfer.",
+        "ground": "Staunton approximately 25\u201335 min; Rockfish Gap / Skyline Drive south entrance approximately 35\u201350 min, then additional park driving.",
+        "transport": "Airport officially lists onsite Avis and Budget rental cars; a rental is the practical basis for the mountain outing. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://flyshd.com/car-rentals/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Skyline Drive from Rockfish Gap",
+          "category": "Things to do",
+          "description": "Explore the southern section of Shenandoah National Park with selected overlooks; do not attempt the entire 105-mile drive as a short stop.",
+          "url": "https://www.nps.gov/shen/planyourvisit/driving-skyline-drive.htm",
+          "hours_note": "Road access can close for weather. Check NPS alerts, daylight, entry fees and any seasonal facility closures. Current closure status is not certified: the NPS alert feed did not render in this research tool. Recheck the linked official alerts before visiting.",
+          "time_fit": "Half day or longer; visit time excludes airport transfers",
+          "drive_estimate": "35\u201350 min to southern entrance, plus park driving one way from the airport; planning estimate, not live routing",
+          "alert_source": "https://www.nps.gov/shen/planyourvisit/conditions.htm"
+        },
+        {
+          "name": "Zynodoa",
+          "category": "Dining",
+          "description": "Southern cooking in a historic downtown Staunton building, useful for a relaxed dinner after the scenic drive.",
+          "url": "https://www.zynodoa.com/home",
+          "hours_note": "Check the official calendar and operating hours for the chosen weekend; no dated opening or ticket availability is promised.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "25\u201335 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://flyshd.com/car-rentals/",
+        "https://www.nps.gov/shen/planyourvisit/driving-skyline-drive.htm",
+        "https://www.zynodoa.com/home",
+        "https://www.nps.gov/shen/planyourvisit/conditions.htm"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made.",
+      "alert_qa": {
+        "checked": "2026-10-22",
+        "sources": [
+          "https://www.nps.gov/shen/planyourvisit/conditions.htm"
+        ],
+        "state": "Uncertain: alert pages fetched but dynamic alerts not rendered. Normal hours are not proof that every area is open."
+      }
+    },
+    {
+      "destination": {
+        "id": "KSPG",
+        "name": "St. Petersburg waterfront",
+        "city": "St. Petersburg waterfront",
+        "tagline": "Dal\u00ed + marina dining",
+        "description": "One of the most compact weekend ground plans: art, waterfront walking and a marina-view meal close to downtown Albert Whitted Airport.",
+        "desc": "One of the most compact weekend ground plans: art, waterfront walking and a marina-view meal close to downtown Albert Whitted Airport.",
+        "ground": "Allow 5\u201310 min by car to The Dal\u00ed and 10\u201315 min to Fresco\u2019s; legal landside walking routes may work but depend on FBO exit and weather.",
+        "transport": "City airport documentation identifies rental-car facilities, but current inventory and hours were not verified. Arrange transport with the FBO; do not walk across operational surfaces to reach nearby attractions. Short rides can replace keeping a car for the whole weekend.",
+        "transport_sources": [
+          "https://cms5.revize.com/revize/stpete/Residents/parking_transportation/Airport/Airport%20-%20SPG_MasterPlan_May2023.pdf"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 379,
+        "native_eta": "2h35",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "The Dal\u00ed Museum",
+          "category": "Things to do",
+          "description": "Spend time with the art and waterfront architecture instead of treating the museum as a quick photo stop. Ticket and exhibition availability require a separate check.",
+          "url": "https://thedali.org/visit/",
+          "hours_note": "Official regular hours daily 10:00\u201318:00; Thursday until 20:00. Check special closures and timed entry.",
+          "time_fit": "Allow 2\u20133 hours.",
+          "drive_estimate": "5\u201310 min drive from SPG, estimate; confirm landside route if walking",
+          "photo_path": null
+        },
+        {
+          "name": "Fresco\u2019s Waterfront Bistro",
+          "category": "Dining / marina view",
+          "description": "Seafood and brunch beside the municipal marina at the entrance to St. Pete Pier. Easy to pair with waterfront walking without crossing the metro area.",
+          "url": "https://www.frescoswaterfront.com/",
+          "hours_note": "Official Saturday 09:00\u201323:00; Sunday 09:00\u201322:00; brunch until 15:00.",
+          "time_fit": "Allow 60\u201390 min; view seating unconfirmed.",
+          "drive_estimate": "10\u201315 min drive from SPG, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://cms5.revize.com/revize/stpete/Residents/parking_transportation/Airport/Airport%20-%20SPG_MasterPlan_May2023.pdf",
+        "https://thedali.org/visit/",
+        "https://www.frescoswaterfront.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KSRQ",
+        "name": "Sarasota / Longboat Key",
+        "city": "Sarasota / Longboat Key",
+        "tagline": "Bayfront gardens + seafood",
+        "description": "Tropical gardens on Sarasota Bay and an outdoor waterfront meal make a gentle, scenic weekend rather than a packed attraction checklist.",
+        "desc": "Tropical gardens on Sarasota Bay and an outdoor waterfront meal make a gentle, scenic weekend rather than a packed attraction checklist.",
+        "ground": "Allow 20\u201330 min from SRQ to Selby\u2019s downtown campus; 30\u201345 min to Dry Dock on Longboat Key. Bridge traffic can be slow.",
+        "transport": "SRQ officially lists on-site rental companies. Confirm arrangements for the GA FBO, counter access and return hours; no live inventory or driver pickup has been verified.",
+        "transport_sources": [
+          "https://flysrq.com/car-rentals",
+          "https://flysrq.com/parking-transportation"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 402,
+        "native_eta": "2h43",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Marie Selby Botanical Gardens \u2014 Downtown Sarasota",
+          "category": "Things to do",
+          "description": "A tropical bayfront garden with living plant collections and smaller themed areas. This means the downtown campus, not Historic Spanish Point farther south.",
+          "url": "https://selby.org/visit/",
+          "hours_note": "Official daily 10:00\u201317:00; closed Christmas. Check construction, exhibition and access updates for your weekend.",
+          "time_fit": "Allow 2\u20133 hours.",
+          "drive_estimate": "20\u201330 min each way from SRQ, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Dry Dock Waterfront Grill",
+          "category": "Dining / bay view",
+          "description": "Seafood with al fresco seating on Longboat Key overlooking Sarasota Bay. A good destination meal, but not an adjacent stop to the garden.",
+          "url": "https://drydockwaterfrontgrill.com/",
+          "hours_note": "Official Friday/Saturday 11:00\u201321:30; Sunday\u2013Thursday 11:00\u201321:00.",
+          "time_fit": "Allow 75\u201390 min plus travel; reservation/table availability unconfirmed.",
+          "drive_estimate": "30\u201345 min each way from SRQ, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://flysrq.com/car-rentals",
+        "https://flysrq.com/parking-transportation",
+        "https://selby.org/visit/",
+        "https://drydockwaterfrontgrill.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KSSI",
+        "name": "St. Simons Island",
+        "city": "St. Simons Island, Georgia",
+        "tagline": "Lighthouse views and a village seafood dinner",
+        "description": "An island weekend with unusually short airport-to-village transfers, leaving more time for the waterfront and a slow meal.",
+        "ground": "Pier Village and lighthouse approximately 10\u201315 min.",
+        "transport": "Airport officially lists rental agencies inside the FBO with cars outside. A listing does not guarantee stock or weekend desk hours. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://flygcairports.com/st-simons-island-airport-at-mckinnon-field/ssi-parking-transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "St. Simons Lighthouse Museum and village waterfront",
+          "category": "Things to do",
+          "description": "Visit the keeper\u2019s dwelling and lighthouse, then stroll the nearby village waterfront. Tower access involves stairs and depends on operating conditions.",
+          "url": "https://www.coastalgeorgiahistory.org/visit/st-simons-lighthouse/",
+          "hours_note": "Check museum hours and tower access before visiting; nearby outdoor waterfront is a separate daylight option.",
+          "time_fit": "1\u20132 hours; visit time excludes airport transfers",
+          "drive_estimate": "10\u201315 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Georgia Sea Grill",
+          "category": "Dining",
+          "description": "Seafood-focused restaurant in Pier Village, convenient for pairing with the lighthouse area; not advertised as a guaranteed waterfront table.",
+          "url": "https://georgiaseagrill.com/",
+          "hours_note": "Official site lists Friday\u2013Saturday 17:00\u201322:00 and Monday\u2013Thursday 17:00\u201321:30. Sunday service is not listed; do not assume it. Reservations recommended; recheck for the chosen dates.",
+          "time_fit": "75\u2013120 min; visit time excludes airport transfers",
+          "drive_estimate": "10\u201315 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://flygcairports.com/st-simons-island-airport-at-mckinnon-field/ssi-parking-transportation/",
+        "https://www.coastalgeorgiahistory.org/visit/st-simons-lighthouse/",
+        "https://georgiaseagrill.com/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KTPF",
+        "name": "Tampa / Riverwalk",
+        "city": "Tampa / Riverwalk",
+        "tagline": "Riverfront stroll + Ulele",
+        "description": "Arrive on Davis Islands and spend a weekend on Tampa\u2019s riverfront, with a characterful meal in Tampa Heights.",
+        "desc": "Arrive on Davis Islands and spend a weekend on Tampa\u2019s riverfront, with a characterful meal in Tampa Heights.",
+        "ground": "Allow 10\u201320 min from Peter O. Knight to downtown Riverwalk; 15\u201325 min to Ulele. Downtown events and bridges may add delay.",
+        "transport": "Airport authority identifies the Davis Islands GA airport and local FBO. Arrange a rental, taxi or ride pickup at TPF; Tampa International\u2019s airline-terminal transportation instructions do not apply here. Availability and excursion limits unverified.",
+        "transport_sources": [
+          "https://www.tampaairport.com/business/general-aviation/peter-o-knight-airport"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "",
+        "planner_covered": true,
+        "native_distance_nm": 372,
+        "native_eta": "2h32",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Tampa Riverwalk",
+          "category": "Things to do",
+          "description": "Choose a riverfront section linking parks and downtown sights, with time to pause rather than trying to cover the full route. Indoor attractions are separate ticketed decisions.",
+          "url": "https://www.tampa.gov/parks-and-recreation/featured-parks/riverwalk",
+          "hours_note": "Outdoor daylight walk suggested; no single venue schedule assumed. Obey local event and path closures.",
+          "time_fit": "Allow 1\u20132 hours for a selected section.",
+          "drive_estimate": "10\u201320 min each way from TPF, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Ulele",
+          "category": "Dining / riverfront character",
+          "description": "Florida-inspired dishes from a barbacoa grill in a characterful riverside setting at Tampa Heights. Pilot alcohol consumption is not part of this plan.",
+          "url": "https://ulele.com/",
+          "hours_note": "Official Friday/Saturday 11:00\u201323:00; Sunday\u2013Thursday 11:00\u201322:00.",
+          "time_fit": "Allow 75\u201390 min; reservation and outdoor seating unconfirmed.",
+          "drive_estimate": "15\u201325 min each way from TPF, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.tampaairport.com/business/general-aviation/peter-o-knight-airport",
+        "https://www.tampa.gov/parks-and-recreation/featured-parks/riverwalk",
+        "https://ulele.com/"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    },
+    {
+      "destination": {
+        "id": "KTRI",
+        "name": "Tri-Cities / Bristol",
+        "city": "Bristol, Tennessee / Virginia",
+        "tagline": "Country-music history and a bakery date",
+        "description": "Focus on walkable downtown Bristol rather than trying to cover all three regional cities in one day.",
+        "ground": "Downtown Bristol approximately 25\u201335 min.",
+        "transport": "The Tennessee airport\u2019s official ground-transport page lists rentals and other providers; confirm GA transfer details. Do not confuse TRI with Pasco, Washington\u2019s PSC airport. Availability, fees, pickup location and return arrangements are unverified. Do not assume a courtesy car is available for a full weekend.",
+        "transport_sources": [
+          "https://flytri.com/traveler/airport/ground-transportation/"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22"
+      },
+      "options": [
+        {
+          "name": "Birthplace of Country Music Museum",
+          "category": "Things to do",
+          "description": "Music-history exhibits about the Bristol Sessions and their legacy, with an indoor alternative for poor weather.",
+          "url": "https://birthplaceofcountrymusic.org/visit/faqs/",
+          "hours_note": "Check current museum hours, admissions and exhibit schedule for the selected weekend.",
+          "time_fit": "1.5\u20132 hours; visit time excludes airport transfers",
+          "drive_estimate": "25\u201335 min one way from the airport; planning estimate, not live routing"
+        },
+        {
+          "name": "Blackbird Bakery, downtown Bristol",
+          "category": "Dining",
+          "description": "Pastries and coffee for a casual date stop near the museum, not a full fine-dining dinner.",
+          "url": "https://blackbirdbakerybristol.com/contact/",
+          "hours_note": "Official downtown listing: Monday\u2013Saturday 07:00\u201322:00; CLOSED Sunday. Page contains inconsistent street numbers; verify the current downtown address before routing.",
+          "time_fit": "30\u201360 min; visit time excludes airport transfers",
+          "drive_estimate": "25\u201335 min one way from the airport; planning estimate, not live routing"
+        }
+      ],
+      "sources": [
+        "https://flytri.com/traveler/airport/ground-transportation/",
+        "https://birthplaceofcountrymusic.org/visit/faqs/",
+        "https://blackbirdbakerybristol.com/contact/"
+      ],
+      "planning_note": "Reusable full-weekend inspiration, not a Friday afternoon itinerary. Driving times are estimates. Flight distances and ETAs come separately from the planner; operational suitability, fuel stops, weather and NOTAMs still require pilot planning. No hotels, reservations or contacts made."
+    },
+    {
+      "destination": {
+        "id": "KVNC",
+        "name": "Venice, Florida",
+        "city": "Venice, Florida",
+        "tagline": "Beach stroll + pier-side seafood",
+        "description": "A beach-focused weekend with unusually short ground transfers: Venice\u2019s shoreline and a Gulf-view meal near the fishing pier.",
+        "desc": "A beach-focused weekend with unusually short ground transfers: Venice\u2019s shoreline and a Gulf-view meal near the fishing pier.",
+        "ground": "Allow 10\u201315 min from VNC to Venice Beach; 5\u201310 min to Sharky\u2019s and the pier area. Airport exit/parking arrangements can add time.",
+        "transport": "Confirm an independent rental or round-trip ride through the airport/FBO. Current car inventory, crew-car policy and ride pickup availability were not verified. Do not assume beach proximity creates a legal walk across the airfield.",
+        "transport_sources": [
+          "https://www.venicegov.com/government/airport/pilot-information"
+        ],
+        "mode": "weekend",
+        "research_date": "2026-10-22",
+        "venue_timezone": "America/New_York",
+        "hours_basis": "Venue hours are local Eastern time. Recheck your chosen weekend and exceptional closures.",
+        "weekend_fit": "A relaxed overnight or full-weekend idea, not an extension of the Friday afternoon timetable. Choose one main activity per half-day; allow transfers and meal queues.",
+        "caution": "The city\u2019s 2026 beach-renourishment update describes temporary access restrictions and completion projected for late September/early October, not a verified completion date. Check current beach/pier access; do not assume construction has ended.",
+        "planner_covered": true,
+        "native_distance_nm": 422,
+        "native_eta": "2h51",
+        "flight_basis": "Published planner distance and published one-way planning ETE (checked-in planner constants), not a live wind/routing/performance or fuel-stop calculation. No nonstop feasibility asserted.",
+        "booking_status": "No table, vehicle, ticket or hotel booked; availability unconfirmed."
+      },
+      "options": [
+        {
+          "name": "Venice Beach",
+          "category": "Things to do",
+          "description": "A relaxed shoreline walk and beach time near the city\u2019s historic center. Swim only subject to posted conditions; no equipment rental or guided fossil hunt is assumed.",
+          "url": "https://www.venicegov.com/Home/Components/FacilityDirectory/FacilityDirectory/62/265",
+          "hours_note": "City directory verifies the beach and amenities; current gate/lifeguard hours and post-storm conditions require a fresh check.",
+          "time_fit": "Allow 1\u20133 hours depending on conditions.",
+          "drive_estimate": "10\u201315 min each way from VNC, estimate",
+          "photo_path": null
+        },
+        {
+          "name": "Sharky\u2019s on the Pier",
+          "category": "Dining / Gulf view",
+          "description": "Casual beachfront seafood at the base of Venice Fishing Pier, with the Gulf outlook explicitly described by the restaurant. Pier access should be checked independently.",
+          "url": "https://www.sharkysonthepier.com/",
+          "hours_note": "Official Friday/Saturday 11:30\u201323:00; Sunday\u2013Thursday 11:30\u201322:00; closed Thanksgiving and Christmas.",
+          "time_fit": "Allow 60\u201390 min, plus any wait.",
+          "drive_estimate": "5\u201310 min each way from VNC, estimate",
+          "photo_path": null
+        }
+      ],
+      "sources": [
+        "https://www.venicegov.com/government/airport/pilot-information",
+        "https://www.venicegov.com/Home/Components/FacilityDirectory/FacilityDirectory/62/265",
+        "https://www.sharkysonthepier.com/",
+        "https://www.venicegov.com/government/engineering/engineering-projects/beach-renourishment-project"
+      ],
+      "research_policy": "Primary venue/tourism sources. All drive times are estimates from airport/FBO to named area, not live routing. Do not assume a courtesy car can be kept overnight. No external writes or bookings."
+    }
+  ]
+}

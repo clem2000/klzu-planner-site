@@ -1,0 +1,17 @@
+{
+  "version": "v7",
+  "default_mode": "friday",
+  "friday_destination_count": 20,
+  "weekend_destination_count": 47,
+  "native_destination_count": 29,
+  "home_airport": "KLZU",
+  "weekend_dates": [
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25"
+  ],
+  "availability": "Not verified; these are general ideas, not bookings",
+  "times": "Planner forecasts in Eastern time; venue hours local to destination",
+  "native_forecast_generated_at": "2026-10-22T17:27:31Z",
+  "native_source_fetched_at": "2026-10-22T23:00:37.367320Z"
+}
