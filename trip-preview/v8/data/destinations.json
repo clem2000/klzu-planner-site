@@ -1,0 +1,2219 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-22",
+  "scope": "Public destination research, not current operating assurance",
+  "destinations": {
+    "KAJR": {
+      "airport": "KAJR",
+      "name": "Clarkesville",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": "37",
+      "airborne_eta_minutes_label": "25\u201335",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KAJR",
+      "runways": [
+        {
+          "designators": "6/24",
+          "length_ft": 5503,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 63,
+            "first_true_deg": 57,
+            "reciprocal_magnetic_deg": 243,
+            "reciprocal_true_deg": 237
+          },
+          "landing_distance_available_ft": [
+            4111,
+            5503
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Soque Greenway Trail",
+          "description": "A relaxed riverside and wetland walk near downtown; formerly Clarkesville Greenways. The published Phase I loop is about half a mile; choose a short out-and-back rather than committing to every trail.",
+          "url": "https://soque.org/soque-greenways/",
+          "hours_note": "No official opening/closing hours found; plan daylight only.",
+          "drive_estimate": "20\u201325 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday short-window option",
+          "visit_duration_estimate": "30\u201345 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": "Soque Greenway Trail \u00b7 representative photograph, not live conditions",
+          "photo_source": "https://soque.org/soque-greenways/",
+          "photo_credit": "Soque River Watershed Association; photographer not named",
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit.",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "Historic downtown Clarkesville",
+          "description": "Browse the compact historic center and independent shops, or combine the square with lunch. Individual shops keep their own hours; historic house interior tours are not assumed.",
+          "url": "https://www.clarkesvillega.com/main_street/main_street_economic_development_dda/downtown_clarkesville.php",
+          "hours_note": "Outdoor stroll: daylight recommendation, not a posted gate schedule. Mauldin House hours vary and tours are by appointment.",
+          "drive_estimate": "20\u201325 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday short-window option",
+          "visit_duration_estimate": "30\u201345 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit."
+        },
+        {
+          "name": "Mark of the Potter",
+          "description": "Handmade ceramics in a scenic Soque River setting on Highway 197. A distinctive art-and-river stop, but not a downtown add-on in the same tight lunch timetable.",
+          "url": "https://www.markofthepotter.com/",
+          "hours_note": "Official site only posts SUMMER hours 10 am\u20136 pm daily; October hours remain unconfirmed.",
+          "drive_estimate": "35\u201345 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Save for a longer afternoon / weekend; reconfirm seasonal hours",
+          "visit_duration_estimate": "45\u201360 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": "Mark of the Potter riverside setting \u00b7 representative photo",
+          "photo_source": "https://exploregeorgia.org/clarkesville/arts-culture/galleries/mark-of-the-potter",
+          "photo_credit": null,
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit."
+        },
+        {
+          "name": "Tallulah Gorge rim overlooks",
+          "description": "Dramatic canyon and waterfall views from rim trails. Keep this as a dedicated longer-day option, not lunch plus a rushed gorge hike.",
+          "url": "https://gastateparks.org/TallulahGorge?mode=m",
+          "hours_note": "Oct 23, 2026 is an official aesthetic water-release date (8 am\u20138 pm): gorge-floor hiking/climbing prohibited; southside staircase closed. Rim viewpoints are the relevant option. Check current park hours/alerts.",
+          "drive_estimate": "35\u201345 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Longer day / weekend; NOT the short Friday default",
+          "visit_duration_estimate": "90\u2013120 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit."
+        },
+        {
+          "name": "The Copper Pot",
+          "description": "A downtown lunch anchor at 135 Grant Street; convenient pairing with a short town stroll. Selected for location and character rather than an unverified mountain-view claim.",
+          "url": "https://www.copperpotrestaurant.com/",
+          "hours_note": "Thu\u2013Sun opens 11 am; last seating around 8:30 pm; kitchen closes 9 pm.",
+          "drive_estimate": "20\u201325 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday lunch option",
+          "visit_duration_estimate": "45\u201360 min",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "photo_caption": "The Copper Pot \u00b7 representative photograph, not live conditions",
+          "photo_source": "https://www.copperpotrestaurant.com/",
+          "photo_credit": "The Copper Pot official website; photographer not named",
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit.",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "The Attic",
+          "description": "A historic service station turned restaurant, with the original garage-door entrance and old photographs. Street-facing character, not a panoramic view.",
+          "url": "https://www.theatticrestaurant.us/",
+          "hours_note": "Fri 10 am\u20139 pm; Sat 9 am\u20139 pm; Sun 9 am\u20138:30 pm; Mon\u2013Thu 10 am\u20138:30 pm.",
+          "drive_estimate": "20\u201325 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday lunch option",
+          "visit_duration_estimate": "45\u201360 min",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "photo_caption": "The Attic \u00b7 representative photograph, not live conditions",
+          "photo_source": "https://www.theatticrestaurant.us/",
+          "photo_credit": "The Attic official website; photographer not named",
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit.",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        }
+      ]
+    },
+    "KDZJ": {
+      "airport": "KDZJ",
+      "name": "Blairsville",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": "53",
+      "airborne_eta_minutes_label": "35\u201345",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KDZJ",
+      "runways": [
+        {
+          "designators": "8/26",
+          "length_ft": 5004,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 76,
+            "first_true_deg": 73,
+            "reciprocal_magnetic_deg": 256,
+            "reciprocal_true_deg": 253
+          },
+          "landing_distance_available_ft": [
+            4017,
+            4319
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Meeks Park",
+          "description": "Creek and river scenery, shady oaks, benches and easy-to-scale walking time. County lists 4.62 miles of trails in total; you need only a short section.",
+          "url": "https://www.unioncountyga.gov/Facilities/Facility/Details/Meeks-Park-2",
+          "hours_note": "No park-wide gate hours verified; daylight visit recommended. Do not confuse recreation-office hours with trail hours.",
+          "drive_estimate": "10\u201315 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday short-window option",
+          "visit_duration_estimate": "30\u201345 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": "Meeks Park \u00b7 representative autumn photo, not current foliage",
+          "photo_source": "https://exploregeorgia.org/blairsville/outdoors-nature/parks/meeks-park",
+          "photo_credit": null,
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit."
+        },
+        {
+          "name": "Historic Courthouse Museum & town square",
+          "description": "Local-history exhibits inside the restored 1899 courthouse, with a compact town-square stroll outside. A useful indoor alternative if arrival is early enough.",
+          "url": "https://www.unioncountyhistory.org/_files/ugd/b83337_d4d2401bc0564d09be5728d8074982a5.pdf",
+          "hours_note": "Official museum guide: 10 am\u20134 pm, Mon\u2013Sat May\u2013December; Mon\u2013Fri January\u2013April. Arrive well before 4 pm.",
+          "drive_estimate": "10\u201315 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday only if arrival leaves time before 4 pm",
+          "visit_duration_estimate": "30\u201345 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": "Historic Courthouse Museum & town square \u00b7 representative photograph, not live conditions",
+          "photo_source": "https://www.unioncountyhistory.org/",
+          "photo_credit": "Union County Historical Society official website; photographer not named",
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit.",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "Brasstown Bald summit",
+          "description": "Panoramic Blue Ridge views from Georgia\u2019s highest summit. Shuttle is included in regular admission; walking route is a steep 0.6 mile each way from parking.",
+          "url": "https://gofindoutdoors.org/sites/brasstown-bald/",
+          "hours_note": "Official visitor services daily 10 am\u20135 pm in season; last uphill shuttle 4:30, last return 5. $10/adult during regular hours. Weather can interrupt access.",
+          "drive_estimate": "40\u201350 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Save for a longer day / weekend; not the Friday short-window default",
+          "visit_duration_estimate": "90\u2013120 min",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "photo_caption": "Brasstown Bald summit \u00b7 representative photograph, not live conditions",
+          "photo_source": "https://gofindoutdoors.org/sites/brasstown-bald/",
+          "photo_credit": "FIND Outdoors official website; photographer not named",
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit.",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "Cabin Coffee",
+          "description": "Coffee and a light lunch on Blairsville\u2019s town square; a convenient low-key stop before a walk. Not a mountain-view restaurant.",
+          "url": "https://cabincoffeecompany.com/location/blairsville/",
+          "hours_note": "Fri 7 am\u20134 pm; Sat 8 am\u20134 pm; Sun 8 am\u20132 pm. Official location page takes precedence over tourism listing showing 4:30 pm.",
+          "drive_estimate": "10\u201315 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "Friday only before 4 pm closing",
+          "visit_duration_estimate": "25\u201340 min",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": "No independently verified current review score; selection is based on documented setting and practical fit."
+        },
+        {
+          "name": "The View Grill at Butternut Creek",
+          "description": "The strongest documented view-led dining lead: upstairs windows and patio face the golf course and North Georgia mountains. Save as a candidate, not a guaranteed-open stop.",
+          "url": "https://members.visitblairsvillega.com/list/member/the-view-grill-2836",
+          "hours_note": "Chamber lists Tue\u2013Sat 11 am\u20138 pm, but county records document a March 2026 operator change and other hours conflict. Current operation/hours need reconfirmation before relying on it.",
+          "drive_estimate": "10\u201315 min each way from airport (planning estimate, not live routing)",
+          "time_fit": "View-led dining candidate; verify before Friday or a future trip",
+          "visit_duration_estimate": "45\u201360 min",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": "No reliable current post-operator-change review score established; do not label highly rated.",
+          "sources": [
+            "https://www.unioncountyga.gov/m/newsflash/Archive/Item/46?arcId=88",
+            "https://www.unioncountyga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_03242026-282",
+            "https://members.visitblairsvillega.com/list/member/the-view-grill-2836"
+          ]
+        }
+      ]
+    },
+    "KAHN": {
+      "airport": "KAHN",
+      "name": "Athens",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": "32",
+      "airborne_eta_minutes_label": "20\u201330",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KAHN",
+      "runways": [
+        {
+          "designators": "9/27",
+          "length_ft": 6122,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 94,
+            "first_true_deg": 88,
+            "reciprocal_magnetic_deg": 274,
+            "reciprocal_true_deg": 268
+          },
+          "landing_distance_available_ft": null
+        },
+        {
+          "designators": "2/20",
+          "length_ft": 3995,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 27,
+            "first_true_deg": 21,
+            "reciprocal_magnetic_deg": 207,
+            "reciprocal_true_deg": 201
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "State Botanical Garden of Georgia",
+          "description": "A gentle self-guided wander through themed display gardens; add woodland trails only when time allows.",
+          "url": "https://botgarden.uga.edu/location-hours-parking-and-tours/",
+          "sources": [
+            "https://botgarden.uga.edu/location-hours-parking-and-tours/"
+          ],
+          "hours_note": "Grounds daily 7 am\u20137 pm except UGA holidays. Visitor center, museum and shop Tue\u2013Sat 9 am\u20134:30 pm; Sun 11:30 am\u20134:30 pm; Mon closed.",
+          "drive_estimate": "KAHN \u2192 garden: allow 15\u201320 minutes each way (estimate).",
+          "time_fit": "Best short-window choice: 60\u201390 minutes in the display gardens; indoor facilities close at 4:30 pm.",
+          "longer_fit": "Allow 2\u20133 hours for more gardens, nature trails and the Porcelain and Decorative Arts Museum. The regular walk-up guided tour is Tue\u2013Fri 11 am\u2013noon, not afternoon.",
+          "category": "things_to_do",
+          "photo_caption": "Garden paths, representative green-season photograph; not current foliage.",
+          "photo_source": "https://botgarden.uga.edu/location-hours-parking-and-tours/",
+          "photo_credit": "State Botanical Garden of Georgia / UGA; photographer not identified",
+          "review_note": null,
+          "review_source": null,
+          "rechecked": "2026-10-22",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "Georgia Museum of Art",
+          "description": "Explore selected galleries at your own pace, with an outdoor sculpture garden as a possible extra.",
+          "url": "https://georgiamuseum.org/museum-field-trip-in-athens/",
+          "sources": [
+            "https://georgiamuseum.org/museum-field-trip-in-athens/",
+            "https://www.visitathensga.com/listing/georgia-museum-of-art/290/"
+          ],
+          "hours_note": "Tue/Wed/Fri/Sat 10 am\u20135 pm; Thu 10 am\u20139 pm; Sun 1\u20135 pm; Mon closed.",
+          "drive_estimate": "KAHN \u2192 museum: allow 10\u201315 minutes each way (estimate), plus parking and walking.",
+          "time_fit": "45\u201375 minutes is a useful short visit before the 5 pm closing; reserve free timed tickets first.",
+          "longer_fit": "Allow 1.5\u20132 hours for galleries and sculpture garden. Thursday stays open until 9 pm; Saturday 10\u20135 and Sunday 1\u20135 offer future-trip alternatives.",
+          "category": "things_to_do",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": null,
+          "review_source": null,
+          "rechecked": "2026-10-22"
+        },
+        {
+          "name": "Historic North Campus + downtown",
+          "description": "Start by the Arch and follow part of UGA\u2019s self-guided map past historic campus landmarks, Herty Field and the Founders Memorial Garden.",
+          "url": "https://visit.uga.edu/tours/",
+          "sources": [
+            "https://visit.uga.edu/tours/",
+            "https://visit.uga.edu/wp-content/uploads/2026/01/VC_SelfGuidedTourHandout_Aug2025_Final.pdf"
+          ],
+          "hours_note": "Outdoor self-guided route: no published gate hours found; plan for daylight. Visitor Center Mon\u2013Fri 8 am\u20135 pm, selected Saturdays 9:30 am\u20133 pm; closed Sunday, UGA holidays and home-football Saturdays.",
+          "drive_estimate": "KAHN \u2192 downtown/Arch: allow 10\u201315 minutes each way (estimate), plus parking.",
+          "time_fit": "30\u201360 minute outdoor stroll pairs naturally with The Place across Broad Street; easiest food-and-walk combination.",
+          "longer_fit": "Follow the full self-guided map and leave time for downtown shops. A scheduled campus visit is a separate two-hour registered experience.",
+          "category": "things_to_do",
+          "photo_caption": null,
+          "photo_source": null,
+          "photo_credit": null,
+          "review_note": null,
+          "review_source": null,
+          "rechecked": "2026-10-22"
+        },
+        {
+          "name": "Sandy Creek Nature Center",
+          "description": "A quieter nature choice with woodland and wetland paths, wildlife observation areas and a short accessible interpretive trail.",
+          "url": "https://www.accgov.com/facilities/facility/details/16",
+          "sources": [
+            "https://www.accgov.com/facilities/facility/details/16",
+            "https://www.friendsofscnc.org/plan-your-visit",
+            "https://accgov.com/7875/Trails"
+          ],
+          "hours_note": "Trails daily sunrise\u2013sunset. Education/visitor center Tue\u2013Sat 8:30 am\u20135:30 pm; Sun/Mon closed.",
+          "drive_estimate": "KAHN \u2192 nature center: allow 15\u201320 minutes each way (estimate).",
+          "time_fit": "45\u201375 minute short trail or boardwalk wander; keep a firm turn-around time.",
+          "longer_fit": "Allow 1.5\u20133 hours for more trails and indoor exhibits. Do not plan a through-walk to Sandy Creek Park: the park\u2019s current trail page says that connection is not accessible.",
+          "category": "things_to_do",
+          "photo_caption": "Boardwalk-trail image from the nature center supporter website; representative conditions.",
+          "photo_source": "https://www.friendsofscnc.org/",
+          "photo_credit": "Friends of Sandy Creek Nature Center; photographer not identified",
+          "review_note": null,
+          "review_source": null,
+          "rechecked": "2026-10-22",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "The Place",
+          "description": "Refined Southern comfort food in a renovated downtown space. The second floor overlooks historic North Campus; ask about a window table, but a view seat and upstairs service are not guaranteed.",
+          "url": "https://www.theplaceathens.com/",
+          "sources": [
+            "https://www.theplaceathens.com/",
+            "https://www.visitathensga.com/plan/itineraries/two-days-in-athens/",
+            "https://elevate.uga.edu/things-to-do-when-visiting-the-classic-city/"
+          ],
+          "hours_note": "Mon\u2013Thu 11 am\u20139 pm; Fri\u2013Sat 11 am\u201310 pm; Sun brunch 10 am\u20132 pm and dinner 4\u20139 pm.",
+          "drive_estimate": "KAHN \u2192 The Place: allow 10\u201315 minutes each way (estimate).",
+          "time_fit": "Good Friday lunch/late-lunch option. Allow 60\u201375 minutes plus any wait; pair with a short North Campus stroll rather than driving to a second distant stop.",
+          "longer_fit": "Also suits Saturday lunch/dinner or Sunday brunch on a future visit.",
+          "category": "dining",
+          "photo_caption": "Representative dish from The Place; current menu may differ.",
+          "photo_source": "https://www.theplaceathens.com/",
+          "photo_credit": "The Place official website; photographer not identified",
+          "review_note": "Tripadvisor search-indexed regional pages show 4.4/5; review count not verified. Treat this as an indexed snapshot, not a live verified rating.",
+          "review_source": "https://www.tripadvisor.fr/Restaurant_Review-g29209-d7811036-Reviews-The_Place-Athens_Georgia.html",
+          "rechecked": "2026-10-22",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        },
+        {
+          "name": "Last Resort Grill",
+          "description": "An Athens restaurant in a former music-club setting, with Southern cooking influenced by the Southwest. A character choice rather than a confirmed scenic-view restaurant.",
+          "url": "https://www.lastresortgrill.com/",
+          "sources": [
+            "https://www.lastresortgrill.com/"
+          ],
+          "hours_note": "Dinner daily from 5 pm; closing time not specified on official homepage. Brunch/lunch Sat\u2013Sun 11 am\u20132 pm.",
+          "drive_estimate": "KAHN \u2192 Last Resort: allow 10\u201315 minutes each way (estimate).",
+          "time_fit": "Not for this short Friday afternoon: official site lists dinner starting at 5 pm, with lunch only on weekends.",
+          "longer_fit": "Save for Saturday/Sunday brunch or a longer evening visit. Official site offers limited reservations and welcomes walk-ins; no booking made.",
+          "category": "dining",
+          "photo_caption": "Representative plated dish beside a patio fire feature; not a guaranteed table or menu item.",
+          "photo_source": "https://www.lastresortgrill.com/",
+          "photo_credit": "MaggsLeePhoto with Keith P. Rein, credited on Last Resort Grill website",
+          "review_note": "Tripadvisor fetched snapshot: 4.5/5 from 1,450 reviews. Rating and count may change; its Friday lunch hours conflict with the restaurant\u2019s official site, which controls this plan.",
+          "review_source": "https://www.tripadvisor.com/Restaurant_Review-g29209-d447827-Reviews-Last_Resort_Grill-Athens_Georgia.html",
+          "rechecked": "2026-10-22",
+          "photo_rights": "Source-owned; private reference preview only. No public reuse license verified."
+        }
+      ]
+    },
+    "KCVC": {
+      "airport": "KCVC",
+      "name": "Covington",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": "22",
+      "airborne_eta_minutes_label": "20\u201330",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KCVC",
+      "runways": [
+        {
+          "designators": "10/28",
+          "length_ft": 6000,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 100,
+            "first_true_deg": 95,
+            "reciprocal_magnetic_deg": 280,
+            "reciprocal_true_deg": 275
+          },
+          "landing_distance_available_ft": [
+            5800,
+            5500
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Historic square + Walk of Stars",
+          "description": "A compact downtown stroll around the courthouse square: browse shops, spot familiar filming locations and follow star pavers celebrating films and TV productions. Self-guided and easy to shorten.",
+          "url": "https://discovercovingtonga.com/walk-of-the-stars.php",
+          "hours_note": "Outdoor self-guided walk; no gate hours published. Plan for daylight; individual shops set their own hours.",
+          "photo_caption": "An actual Walk of Stars pavement marker; representative photo, not current conditions.",
+          "photo_source": "https://discovercovingtonga.com/walk-of-the-stars.php",
+          "photo_credit": "Discover Covington GA official tourism website; photographer not identified. Source-owned image; no public-reuse license verified.",
+          "category": "things-to-do",
+          "time_fit": "Friday fit: 30\u201345 minutes; pair with lunch rather than a scheduled multi-hour tour.",
+          "drive_estimate": "KCVC FBO \u2192 downtown square: allow 15\u201320 minutes each way (planning estimate, not live routing); the four downtown options are near one another.",
+          "longer_weekend": "For a future half-day, use the self-guided TV/movie or historic-home brochures from the Welcome Center; view private homes from public areas only."
+        },
+        {
+          "name": "Welcome Center film + history exhibits",
+          "description": "Browse film memorabilia and local-history displays at the Welcome Center, then walk the two blocks toward the square. A useful indoor stop without committing to a longer guided tour.",
+          "url": "https://discovercovingtonga.com/local-attractions.php",
+          "hours_note": "Welcome Center Mon\u2013Fri 9 am\u20135 pm; Sat 10 am\u20134 pm; Sunday closed. Regular hours from official tourism contact page; exceptional closures unconfirmed.",
+          "photo_caption": "Welcome Center exhibit interior from the tourism site; representative photo dated March 2023 in source filename.",
+          "photo_source": "https://discovercovingtonga.com/",
+          "photo_credit": "Discover Covington GA official tourism website; photographer not identified. Source-owned image; no public-reuse license verified.",
+          "category": "things-to-do",
+          "time_fit": "Friday fit: allow 20\u201340 minutes and arrive well before 5 pm. Optional addition, not required if lunch runs long.",
+          "drive_estimate": "KCVC FBO \u2192 downtown square: allow 15\u201320 minutes each way (planning estimate, not live routing); the four downtown options are near one another.",
+          "address": "1143 Oak Street SE, Covington, GA 30014",
+          "sources": [
+            "https://discovercovingtonga.com/local-attractions.php",
+            "https://discovercovingtonga.com/contact-us.php",
+            "https://cityofcovington.org/ckeditorfiles/files/2025_ACFR_FY2024b.pdf"
+          ],
+          "longer_weekend": "Saturday open 10\u20134; Sunday closed. Exhibition selection can change."
+        },
+        {
+          "name": "Mystic Grill",
+          "description": "Southern food with a twist and a real rooftop overlooking Historic Covington Square. Strongest lunch-with-a-view choice here; rooftop seating is weather- and availability-dependent, not reserved or guaranteed.",
+          "url": "https://www.mysticgrill.restaurant/",
+          "hours_note": "Mon\u2013Thu and Sun 11 am\u20139 pm; Fri\u2013Sat 11 am\u201310 pm. Official published hours.",
+          "photo_caption": "Mystic Grill exterior, from its official tourism-directory listing; rooftop photo download was blocked.",
+          "photo_source": "https://discovercovingtonga.com/dine.php",
+          "photo_credit": "Discover Covington GA official tourism website; photographer not identified. Source-owned image; no public-reuse license verified.",
+          "category": "dining",
+          "time_fit": "Friday fit: allow 60\u201390 minutes including a modest wait. Rooftop lunch + a short square walk is the primary pairing.",
+          "drive_estimate": "KCVC FBO \u2192 downtown square: allow 15\u201320 minutes each way (planning estimate, not live routing); the four downtown options are near one another.",
+          "address": "1116 Clark Street SW, Covington, GA 30014",
+          "review_note": "Tripadvisor fetched snapshot: 4.4/5 from 840 reviews. Recent reviews include both praise for rooftop dining and complaints about value/food consistency; not a guarantee.",
+          "review_source": "https://www.tripadvisor.com/Restaurant_Review-g34870-d6133080-Reviews-Mystic_Grill-Covington_Georgia.html",
+          "longer_weekend": "Works for a future Saturday lunch or longer dinner visit too; restaurant is open all week."
+        },
+        {
+          "name": "Bread and Butter Bakery \u2014 Covington Square",
+          "description": "A lighter, flexible alternative for sandwiches, pastries and specialty coffee in a brick storefront on the square. Choose this rather than a second full restaurant meal when ground time is tight.",
+          "url": "https://www.breadandbutter.coffee/locations",
+          "hours_note": "Covington Square location: Sun\u2013Thu 7 am\u20139 pm; Fri\u2013Sat 7 am\u201310 pm. These are caf\u00e9 hours, not a guarantee every sandwich is available all day.",
+          "photo_caption": "Bread and Butter storefront at the Covington Square location; representative tourism-directory photo.",
+          "photo_source": "https://discovercovingtonga.com/dine.php",
+          "photo_credit": "Discover Covington GA official tourism website; photographer not identified. Source-owned image; no public-reuse license verified.",
+          "category": "dining",
+          "time_fit": "Friday fit: allow 30\u201345 minutes for a light meal/coffee, plus any line. Shorter alternative to Mystic Grill.",
+          "drive_estimate": "KCVC FBO \u2192 downtown square: allow 15\u201320 minutes each way (planning estimate, not live routing); the four downtown options are near one another.",
+          "address": "1124 Monticello Street SW, Covington, GA 30014",
+          "review_note": "Tripadvisor fetched snapshot: 4.3/5 from 83 reviews for the Square location; ratings and counts may change.",
+          "review_source": "https://www.tripadvisor.com/Restaurant_Review-g34870-d8714226-Reviews-Bread_and_Butter_Bakery-Covington_Georgia.html",
+          "longer_weekend": "Also a breakfast or dessert stop on a future visit. Do not confuse with the separate Hwy 278 drive-through location."
+        }
+      ]
+    },
+    "KAVL": {
+      "airport": "KAVL",
+      "name": "Asheville",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": "112",
+      "airborne_eta_minutes_label": "49",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KAVL",
+      "runways": [
+        {
+          "designators": "17/35",
+          "length_ft": 8002,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 167,
+            "first_true_deg": 160,
+            "reciprocal_magnetic_deg": 347,
+            "reciprocal_true_deg": 340
+          },
+          "landing_distance_available_ft": [
+            8002,
+            8002
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Sierra Nevada gardens & Back Porch",
+          "description": "Woodland setting, estate garden and outdoor seating on the same property as lunch. Not a booked brewery tour, and not an alcohol-tasting plan.",
+          "url": "https://sierranevada.com/visit",
+          "hours_note": "Venue Friday11 am\u201310 pm; outdoor area weather dependent. Guided seasonal outdoor tour is Saturdays in September/early October, not a promised Friday activity.",
+          "drive_estimate": "10\u201315 min each way from KAVL FBO (estimate)",
+          "time_fit": "Friday: brief same-site add-on only; never trade away return buffers",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "review_note": "No review score asserted; selected on documented setting and logistics."
+        },
+        {
+          "name": "Sierra Nevada Taproom restaurant",
+          "description": "Southern-inspired small plates and fresh food at an impressive wooded brewery campus. Main dining room and Back Porch offer alternatives; views are trees/gardens rather than a guaranteed mountain panorama.",
+          "url": "https://sierranevada.com/visit/mills-river/taproom",
+          "hours_note": "Friday\u2013Saturday11 am\u201310 pm; Back Porch food noon\u20137 pm weather permitting. Walk-ins welcome, seating wait unconfirmed.",
+          "drive_estimate": "10\u201315 min each way from KAVL FBO (estimate)",
+          "time_fit": "Friday primary choice: allow55\u201375 min total on property; no alcohol for pilot",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "review_note": "No review score asserted; selected on documented setting and logistics.",
+          "photo_source": "https://visithendersonvillenc.org/businesses/sierra-nevada-taproom-restaurant",
+          "photo_credit": "Jared Kay / Visit Hendersonville",
+          "photo_caption": "Sierra Nevada outdoor dining \u00b7 representative tourism photograph, not current seating or menu",
+          "photo_url": "https://visithendersonvillenc.org/wp-content/uploads/sierra-nevada-restaurant-credit-jared-kay.jpg",
+          "photo_rights": "Source-owned; private reference preview, no public reuse license verified"
+        },
+        {
+          "name": "North Carolina Arboretum",
+          "description": "Display gardens and bonsai exhibition, with seasonal mountain-region planting. Choose this INSTEAD of Sierra Nevada; do not attempt both in the short window.",
+          "url": "https://ncarboretum.org/plan-a-visit/hours-directions-prices/",
+          "hours_note": "October property8 am\u20139 pm; incoming gate closes8 pm. Bonsai and Baker Exhibit Center9 am\u20135 pm. $25 standard-vehicle parking; check current access/construction updates.",
+          "drive_estimate": "20\u201330 min each way from KAVL FBO (estimate)",
+          "time_fit": "Friday alternative if transfer is confirmed:45\u201360 min garden visit; fuller garden day saved for weekend",
+          "category": "things_to_do",
+          "rechecked": "2026-10-22",
+          "review_note": "No review score asserted; selected on documented setting and logistics."
+        },
+        {
+          "name": "The Arbor Eatery",
+          "description": "Sandwiches, salads, quiche and coffee inside the Arboretum, with covered-patio, shade or sun seating. Keeps food and gardens on one site.",
+          "url": "https://ncarboretum.org/plan-a-visit/dining/",
+          "hours_note": "Official dining page: daily10 am\u20135 pm. Arboretum parking fee applies.",
+          "drive_estimate": "20\u201330 min each way from KAVL FBO (estimate)",
+          "time_fit": "Only paired with Arboretum, not an extra transfer after Sierra Nevada",
+          "category": "dining",
+          "rechecked": "2026-10-22",
+          "review_note": "No review score asserted; selected on documented setting and logistics."
+        }
+      ]
+    },
+    "1A5": {
+      "airport": "1A5",
+      "name": "Franklin",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": "79",
+      "airborne_eta_minutes_label": "45\u201355",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/1A5",
+      "runways": [
+        {
+          "designators": "7/25",
+          "length_ft": 5002,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 74,
+            "first_true_deg": 69,
+            "reciprocal_magnetic_deg": 254,
+            "reciprocal_true_deg": 249
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Little Tennessee River Greenway",
+          "category": "Things to do",
+          "description": "Choose a short river-and-bridge out-and-back rather than the full4.5-mile network. Wetland/woodland habitat and a relaxed waterside pause.",
+          "url": "https://www.littletennessee.org/home",
+          "hours_note": "Outdoor trail. Official partner page does not specify gate hours; use the daylight afternoon. FROG Quarters shop hours are separate and not promised.",
+          "time_fit": "Friday best fit:30\u201345min after lunch; shorten if seating or transfers slip.",
+          "drive_estimate": "10\u201315 min each way from1A5 (estimate)",
+          "official_photo_gallery": "https://www.littletennessee.org/home"
+        },
+        {
+          "name": "Scottish Tartans Museum + Main Street",
+          "category": "Things to do",
+          "description": "A compact heritage stop focused on tartans and Scottish dress, followed by a brief downtown wander.",
+          "url": "https://scottishtartansmuseum.org/museum/",
+          "hours_note": "Mon\u2013Sat10:00\u201317:00; adult admission$8+tax on museum site.",
+          "time_fit": "Friday alternative:45\u201360min; substitute for river walk, do not assume both plus a leisurely meal.",
+          "drive_estimate": "10\u201315 min each way from1A5 (estimate)",
+          "official_photo_gallery": "https://scottishtartansmuseum.org/museum/"
+        },
+        {
+          "name": "Dry Falls / Cullasaja Gorge",
+          "category": "Things to do \u2014 longer trip",
+          "description": "A75-foot waterfall with an accessible overlook and a trail behind the cascade. Dramatic scenery, but the winding drive consumes much of this afternoon.",
+          "url": "https://www.fs.usda.gov/r08/northcarolina/recreation/dry-falls",
+          "hours_note": "Official: year-round, dawn\u2013dusk; $3/vehicle. Busy parking, spotty cellular service; stay on designated trail. Page updatedSept11,2026.",
+          "time_fit": "Save for longer/weekend. Friday only as a single-focus alternative with confirmed car and reworked timing; do NOT add to downtown lunch plan.",
+          "drive_estimate": "45\u201355 min each way (estimate); traffic/parking can add time.",
+          "official_photo_gallery": "https://www.fs.usda.gov/r08/northcarolina/recreation/dry-falls"
+        },
+        {
+          "name": "Caff\u00e8 REL",
+          "category": "Dining",
+          "description": "French-inspired bistro with Mediterranean influences in an unexpected gas-station-side setting. Character rather than a view; good pairing with the river stroll.",
+          "url": "https://cafferel.com/",
+          "hours_note": "Friday11:00\u201320:00. Reservations accepted only for parties10+; a couple is walk-in, wait unconfirmed.",
+          "time_fit": "Friday best dining fit: allow60\u201375min; made-to-order meal.",
+          "drive_estimate": "10\u201315 min each way from1A5 (estimate)",
+          "official_photo_gallery": "https://cafferel.com/"
+        },
+        {
+          "name": "Riverwalk Grille",
+          "category": "Dining",
+          "description": "A steakhouse-style alternative with seafood, ribs and lunch selections near the river corridor. Name alone does not establish a waterfront view, so none is promised.",
+          "url": "https://riverwalkgrille.com/",
+          "hours_note": "Official Friday11:00\u201321:00. Seating/meal turnaround unconfirmed.",
+          "time_fit": "Friday alternative meal: allow60\u201375min; choose instead of Caff\u00e8 REL.",
+          "drive_estimate": "10\u201315 min each way from1A5 (estimate)",
+          "official_photo_gallery": "https://riverwalkgrille.com/"
+        },
+        {
+          "name": "Currahee river garden",
+          "category": "Dining / scenic pause \u2014 conditional food",
+          "description": "Actual river-overlooking garden at the Franklin location. Official site lists an onsite food truck, but its Friday service is not verified; do not rely on it as the only meal. Pilot: no alcohol.",
+          "url": "https://curraheebrew.com/contact/",
+          "hours_note": "Franklin taproom Fri12:00\u201322:00; food-truck hours separately unconfirmed.",
+          "time_fit": "Optional30\u201345min riverside pause instead of another activity, or save for longer visit.",
+          "drive_estimate": "10\u201315 min each way from1A5 (estimate)",
+          "official_photo_gallery": "https://curraheebrew.com/contact/"
+        }
+      ]
+    },
+    "KJZP": {
+      "airport": "KJZP",
+      "name": "Jasper",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": "37.7",
+      "airborne_eta_minutes_label": "30\u201340",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KJZP",
+      "runways": [
+        {
+          "designators": "16/34",
+          "length_ft": 5000,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 163,
+            "first_true_deg": 159,
+            "reciprocal_magnetic_deg": 343,
+            "reciprocal_true_deg": 339
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Lee Newton Park + nearby downtown stroll",
+          "description": "Short creekside walk with 0.3- and 0.42-mile loops and Veterans Memorial; pair with Main Street browsing rather than promise an attraction-heavy afternoon.",
+          "url": "https://www.jasper-ga.us/leenewtonpark.htm",
+          "hours_note": "City: 06:00\u201323:00 daily. Individual downtown shop hours vary.",
+          "drive_estimate": "10\u201315 min airport to park (planning estimate, not a live routed journey)",
+          "category": "Things to do",
+          "time_fit": "Short Friday: 30\u201360 min",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.jasper-ga.us/leenewtonpark.htm",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.jasper-ga.us/leenewtonpark.htm"
+          ]
+        },
+        {
+          "name": "Eagle\u2019s Rest on Mount Oglethorpe",
+          "description": "Mountain viewing decks and easy half-mile Eagle\u2019s Rest Trail; the actual big-view option. Choose this instead of stacking downtown and a long restaurant meal.",
+          "url": "https://www.eaglesrestpark.org/",
+          "hours_note": "Official site posts 07:00\u201320:00 but labels these summer hours; October gate schedule not separately confirmed. Automatic gate locks at posted closing; use daylight.",
+          "drive_estimate": "40\u201350 min each way from airport; mountain roads (planning estimate, not a live routed journey)",
+          "category": "Things to do",
+          "time_fit": "Longer/weekend preferred; Friday only as primary activity with quick food/picnic",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.eaglesrestpark.org/",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.eaglesrestpark.org/",
+            "https://irp-cdn.multiscreensite.com/f8a93c97/files/uploaded/Eagles-Rest-Map.pdf"
+          ]
+        },
+        {
+          "name": "The Old Mulehouse",
+          "description": "Historic Main Street pub with a mountain-view deck documented in its own event information; outdoor/view seating not guaranteed. Most flexible Friday food choice.",
+          "url": "https://www.oldmulehouse.com/contact",
+          "hours_note": "Official: Friday\u2013Saturday 11:00\u201322:00.",
+          "drive_estimate": "10\u201315 min airport to 2 N Main Street (planning estimate, not a live routed journey)",
+          "category": "Dining",
+          "time_fit": "Short Friday: 60\u201375 min",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.oldmulehouse.com/contact",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.oldmulehouse.com/contact"
+          ],
+          "view_source": "https://www.oldmulehouse.com/files/omh-private-event-information-june-2024-pdf.pdf",
+          "review_source": "https://www.tripadvisor.com/Restaurant_Review-g35031-d18453898-Reviews-Old_Mulehouse-Jasper_Georgia.html",
+          "review_note": "Independent review link supplied; no rating asserted or invented."
+        },
+        {
+          "name": "Woodbridge Tavern",
+          "description": "Characterful historic inn restaurant: smart-casual lunch, a more intimate alternative to the pub. Reservations recommended by venue; no table availability checked.",
+          "url": "https://www.woodbridgeinnjasper.com/restaurant",
+          "hours_note": "Friday lunch 11:00\u201315:00, dinner 17:00\u201321:00; venue says hours are first/last seatings.",
+          "drive_estimate": "10\u201315 min airport to 44 Chambers Street (planning estimate, not a live routed journey)",
+          "category": "Dining",
+          "time_fit": "Go directly after landing for about 14:35 lunch; 17:00 dinner is too tight for conservative return",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.woodbridgeinnjasper.com/restaurant",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.woodbridgeinnjasper.com/restaurant"
+          ]
+        }
+      ]
+    },
+    "KGVL": {
+      "airport": "KGVL",
+      "name": "Lake Lanier",
+      "courtesy_car": {
+        "status": "Listed \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": "18.9",
+      "airborne_eta_minutes_label": "20\u201330",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KGVL",
+      "runways": [
+        {
+          "designators": "5/23",
+          "length_ft": 5496,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 44,
+            "first_true_deg": 41,
+            "reciprocal_magnetic_deg": 224,
+            "reciprocal_true_deg": 221
+          },
+          "landing_distance_available_ft": [
+            5370,
+            5100
+          ]
+        },
+        {
+          "designators": "11/29",
+          "length_ft": 4003,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 111,
+            "first_true_deg": 108,
+            "reciprocal_magnetic_deg": 291,
+            "reciprocal_true_deg": 288
+          },
+          "landing_distance_available_ft": [
+            3770,
+            3770
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Longwood Park lake walk and bench swings",
+          "description": "Walk along Lake Lanier\u2019s shore, then linger on bench swings overlooking the water; a simple waterside date without equipment rentals.",
+          "url": "https://www.gainesville.org/facilities/facility/details/Longwood-Park-23",
+          "hours_note": "City park rules: 07:00 until dark.",
+          "drive_estimate": "15\u201320 min airport to 20 Pearl Nix Parkway NW (planning estimate, not a live routed journey)",
+          "category": "Things to do",
+          "time_fit": "Short Friday: 45\u201375 min",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.gainesville.org/facilities/facility/details/Longwood-Park-23",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.gainesville.org/facilities/facility/details/Longwood-Park-23"
+          ],
+          "hours_source": "https://www.gainesville.org/366/Park-Rules"
+        },
+        {
+          "name": "Atlanta Botanical Garden, Gainesville",
+          "description": "Woodland garden and maintained forest trails; choose this instead of the lakewalk rather than trying everything. Admission/ticket availability not checked.",
+          "url": "https://atlantabg.org/plan-your-gainesville-visit/",
+          "hours_note": "Official date-specific hours Oct 21\u2013Nov 1: Tuesday\u2013Sunday 09:00\u201317:00; Mondays closed.",
+          "drive_estimate": "20\u201325 min airport to 1911 Sweetbay Drive (planning estimate, not a live routed journey)",
+          "category": "Things to do",
+          "time_fit": "Short Friday: 60\u201390 min; finish before 17:00",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://atlantabg.org/plan-your-gainesville-visit/",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://atlantabg.org/plan-your-gainesville-visit/"
+          ]
+        },
+        {
+          "name": "Skogie\u2019s Lakefront Restaurant",
+          "description": "Laid-back waterside dining at Gainesville Marina: made-to-order seafood, burgers and outdoor lake atmosphere. Best fit with nearby Longwood Park.",
+          "url": "https://skogieslakefrontrestaurant.us/",
+          "hours_note": "Official: Friday\u2013Saturday 11:00\u201322:00.",
+          "drive_estimate": "20\u201325 min airport to 2151 Dawsonville Highway; allow 10\u201315 min from Longwood (planning estimate, not a live routed journey)",
+          "category": "Dining",
+          "time_fit": "Short Friday: 60\u201390 min; view/outdoor seating weather-dependent",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://skogieslakefrontrestaurant.us/",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://skogieslakefrontrestaurant.us/"
+          ],
+          "review_source": "https://www.restaurantji.com/ga/gainesville/skogies-lakefront-restaurant-/",
+          "review_note": "Independent review link; no aggregate score asserted."
+        },
+        {
+          "name": "Pelican Pete\u2019s floating tiki restaurant",
+          "description": "A more unusual on-the-water setting at Port Royale Marina, accessible by car; farther away and first-come-first-served, so secondary to Skogie\u2019s.",
+          "url": "https://www.pelicanpetes.com/",
+          "hours_note": "Official FAQ says year-round, seasonally varying hours. Current Hours page omits Friday; Explore Georgia lists Friday 11:00\u201322:00 and Tripadvisor 11:00\u201321:00. Friday afternoon opening likely but NOT official-date-confirmed.",
+          "drive_estimate": "35\u201345 min airport each way to 8800 Port Royale Drive (planning estimate, not a live routed journey)",
+          "category": "Dining",
+          "time_fit": "Conditional Friday single-destination meal; longer/weekend preferable",
+          "photo_caption": "View real photos on the official source page",
+          "photo_source": "https://www.pelicanpetes.com/",
+          "photo_credit": "Official venue/city gallery; linked only, no image redistribution license established",
+          "public_photo_mode": "official-gallery-link",
+          "sources": [
+            "https://www.pelicanpetes.com/faq/",
+            "https://www.pelicanpetes.com/location/pelican-petes/",
+            "https://exploregeorgia.org/gainesville/food-drink/bar-grills/pelican-petes-tiki-bar-grill"
+          ],
+          "review_source": "https://www.tripadvisor.com/Restaurant_Review-g34963-d3213351-Reviews-Pelican_Pete_s_Tiki_Bar_Grill_Lake_Lanier-Gainesville_Georgia.html",
+          "review_note": "Tripadvisor snapshot 4.0/5 from 78 reviews; recent reviews mention lake/marina view, with price/value tradeoff. Not a guarantee."
+        }
+      ]
+    },
+    "KGKT": {
+      "airport": "KGKT",
+      "name": "Smokies / Sevierville",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": 114,
+      "airborne_eta_minutes_label": "50",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KGKT",
+      "runways": [
+        {
+          "designators": "10/28",
+          "length_ft": 5506,
+          "width_ft": 75,
+          "headings": {
+            "first_magnetic_deg": 102,
+            "first_true_deg": 99,
+            "reciprocal_magnetic_deg": 282,
+            "reciprocal_true_deg": 279
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Tennessee Museum of Aviation",
+          "category": "Things to do",
+          "description": "Airport-side collection of historic aircraft, including flying warbirds. A 45 min visit is realistic; a demonstration flight is not promised.",
+          "url": "https://www.tnairmuseum.com/contact-us/",
+          "hours_note": "Official March 1\u2013November 30: Tue\u2013Sat 10:00\u201318:00.",
+          "time_fit": "45\u201360 min. Confirm lawful ramp-to-museum route; airport-side does not mean unrestricted airside walking.",
+          "drive_estimate": "Airport-side; allow 10\u201315 min access/handoff until route confirmed",
+          "official_photo_gallery": "https://www.tnairmuseum.com/contact-us/"
+        },
+        {
+          "name": "Applewood Farmhouse Restaurant",
+          "category": "Dining \u2014 optional alternative",
+          "description": "Southern farmhouse meal and apple fritters. This is in Sevierville, not a quick walk from airport.",
+          "url": "https://www.applewoodfarmhouserestaurant.com/",
+          "hours_note": "Official Friday 08:00\u201321:00, subject to change.",
+          "time_fit": "45\u201360 min meal only with confirmed vehicle/short wait; on default conservative flight plan choose museum OR meal, not both.",
+          "drive_estimate": "15\u201325 min each way estimate; tourist traffic variable",
+          "official_photo_gallery": "https://www.applewoodfarmhouserestaurant.com/"
+        }
+      ],
+      "research": {
+        "id": "KGKT",
+        "name": "Sevierville / aviation + Smokies",
+        "lat": "35.8577586",
+        "lon": "-83.5287031",
+        "desc": "A compact airport-side aviation collection with a Smoky Mountain setting; a farmhouse meal is optional only with reliable transport.",
+        "tag": "Airport-side museum escape",
+        "scenic": "A compact airport-side aviation collection with a Smoky Mountain setting; a farmhouse meal is optional only with reliable transport.",
+        "distance_nm": 114,
+        "flight": "114 NM native planner /50 min modeled; 60\u201370 min operational allowance",
+        "flight_source": "Native published planner reports 114 NM and 50 min. Timeline uses a separate 70 min each-way allowance; this is not a wind-, route-, or aircraft-performance calculation.",
+        "ground": "Museum airport-side: allow 10\u201315 min for confirmed landside route/handoff; Applewood 15\u201325 min drive each way estimate, traffic variable.",
+        "runway": "10/28 \u00b75,506\u00d775 ft \u00b7 elevation 1,014 ft; runway 28 threshold displaced 350 ft",
+        "airport_source": "https://www.airnav.com/airport/KGKT",
+        "caution": "Official airport page warns no instrument approaches, while current FAA-derived AirNav lists procedures: unresolved source conflict requiring current FAA/NOTAM verification. Mountain route and steeper PAPIs require pilot review. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "Official airport advertises prearranged Enterprise/National pickup, with airport reservations not available online, plus taxi/shuttle contacts. No crew car or ride availability guaranteed. Official FBO hours 08:00\u201318:00 conflict with FAA-derived seasonal attendance through 19:00: use 18:00 conservatively.",
+        "transportSource": "https://www.gktairport.com/",
+        "transport_sources": [
+          "https://www.gktairport.com/"
+        ],
+        "planner_covered": true,
+        "activity": "Museum is the compact primary plan. Farmhouse meal is an alternative, or an add-on only after reviewing real flight/ground time and keeping all buffers.",
+        "recommended_pairing": "Museum is the compact primary plan. Farmhouse meal is an alternative, or an add-on only after reviewing real flight/ground time and keeping all buffers.",
+        "venue": "Official March 1\u2013November 30: Tue\u2013Sat 10:00\u201318:00.",
+        "venueSource": "https://www.tnairmuseum.com/contact-us/",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:40",
+            "label": "Conservative flight allowance; native planner 50 min is shorter"
+          },
+          {
+            "time": "14:40\u201315:00",
+            "label": "Shutdown / access handoff"
+          },
+          {
+            "time": "15:00\u201315:15",
+            "label": "Landside museum access (route must be confirmed)"
+          },
+          {
+            "time": "15:15\u201316:00",
+            "label": "Museum visit"
+          },
+          {
+            "time": "16:00\u201316:15",
+            "label": "Return to FBO"
+          },
+          {
+            "time": "16:15\u201316:45",
+            "label": "Return preflight"
+          },
+          {
+            "time": "16:45\u201317:55",
+            "label": "Return flight allowance; earlier than 18:45 deadline"
+          },
+          {
+            "time": "17:55\u201318:15",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Exact-airport native planner forecast available separately; this is not a flight clearance. Mountain route, actual weather and NOTAMs still require pilot review.",
+        "native_distance_nm": 114,
+        "native_ete": "0h50",
+        "quick_stop": "45 min inside the airport-side aviation museum. Allow 10\u201315 min each way for the confirmed landside access route; unrestricted ramp walking is not assumed.",
+        "arrival_hhmm": "14:40",
+        "departure_hhmm": "16:45",
+        "tagline": "Airport-side museum escape"
+      }
+    },
+    "KTOC": {
+      "airport": "KTOC",
+      "name": "Toccoa Falls",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 49.5,
+      "airborne_eta_minutes_label": "35\u201345",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KTOC",
+      "runways": [
+        {
+          "designators": "3/21",
+          "length_ft": 5008,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 27,
+            "first_true_deg": 21,
+            "reciprocal_magnetic_deg": 207,
+            "reciprocal_true_deg": 201
+          },
+          "landing_distance_available_ft": null
+        },
+        {
+          "designators": "9/27",
+          "length_ft": 2951,
+          "width_ft": 50,
+          "headings": {
+            "first_magnetic_deg": 94,
+            "first_true_deg": 88,
+            "reciprocal_magnetic_deg": 274,
+            "reciprocal_true_deg": 268
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Toccoa Falls",
+          "category": "Things to do",
+          "description": "The university waterfall is accessed by a 100-yard gravel path through Gate Cottage. This is a brief scenic visit, not a long hike.",
+          "url": "https://utf.edu/the-waterfall/visiting-toccoa-falls/",
+          "hours_note": "Official Mon\u2013Fri 10:00\u201316:00; $2 admission. University events/closures can change access; not specifically confirmed for Oct 23.",
+          "time_fit": "Best Friday stop: 30\u201345 min, arrive well before 16:00.",
+          "drive_estimate": "15\u201320 min each way estimate",
+          "official_photo_gallery": "https://utf.edu/the-waterfall/visiting-toccoa-falls/"
+        },
+        {
+          "name": "Living Room Roasters",
+          "category": "Coffee / light pause",
+          "description": "Small-batch roaster on Doyle Street for a warm drink and a relaxed downtown pause. This is not a promised full lunch.",
+          "url": "https://www.mainstreettoccoa.com/business/living-room-roasters",
+          "hours_note": "City Main Street listing: Wed\u2013Sat 09:00\u201316:00.",
+          "time_fit": "Optional brief coffee stop before 16:00; allow 15\u201325 min only if service is prompt. Skip rather than rush if late.",
+          "drive_estimate": "10\u201315 min airport; 10\u201315 min from falls estimate",
+          "official_photo_gallery": "https://www.mainstreettoccoa.com/business/living-room-roasters"
+        },
+        {
+          "name": "X-Factor Grill",
+          "category": "Dining \u2014 earlier arrival only",
+          "description": "American/Southern lunch in a historic downtown building. Closing time makes it a poor default after a 13:30 flight departure.",
+          "url": "https://www.xfactorgrill.com/",
+          "hours_note": "Official site closes 15:00 Friday; dinner closed until further notice. City lists 07:00\u201315:00.",
+          "time_fit": "Save for earlier departure/day trip; do not promise a full sit-down meal on the default waterfall schedule.",
+          "drive_estimate": "10\u201315 min estimate",
+          "official_photo_gallery": "https://www.xfactorgrill.com/"
+        }
+      ],
+      "research": {
+        "id": "KTOC",
+        "name": "Toccoa Falls",
+        "lat": "34.5928117",
+        "lon": "-83.2963717",
+        "desc": "A dramatic 186-foot waterfall reached by a short gravel path, with a small-town coffee stop rather than a rushed late lunch.",
+        "tag": "Short waterfall escape",
+        "scenic": "A dramatic 186-foot waterfall reached by a short gravel path, with a small-town coffee stop rather than a rushed late lunch.",
+        "distance_nm": 49.5,
+        "flight": "49.5 NM direct calculated; 35\u201345 min each way allowance",
+        "flight_source": "Great-circle from KLZU coordinates; flight duration is a planning allowance, not a Mooney performance or route calculation.",
+        "ground": "15\u201320 min to falls, 10\u201315 min to downtown; falls-to-downtown 10\u201315 min estimates.",
+        "runway": "03/21 \u00b75,008\u00d7100 ft; 09/27 \u00b72,951\u00d750 ft; elevation 996 ft",
+        "airport_source": "https://www.airnav.com/airport/KTOC",
+        "caution": "Use the runway and terrain appropriate to the flight; the shorter crosswind runway is not equivalent to the main runway. Deer noted. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "Toccoa Aviation courtesy/rental cars appear in FlightAware and user reports, not availability-confirmed. Attendance 09:00\u201318:00. Confirm permitted trip length and return handoff; do not assume rideshare in this small town.",
+        "transportSource": "https://www.flightaware.com/resources/airport/KTOC/services/FBO/Toccoa_Aviation%2C_Inc.",
+        "transport_sources": [
+          "https://www.flightaware.com/resources/airport/KTOC/services/FBO/Toccoa_Aviation%2C_Inc.",
+          "https://www.airnav.com/airport/KTOC/TOCCOA_AV",
+          "https://stephenscountyga.gov/airport/"
+        ],
+        "planner_covered": false,
+        "activity": "Waterfall first; coffee optional before 16:00. A short visit comfortably permits an earlier return instead of stretching to 18:45.",
+        "recommended_pairing": "Waterfall first; coffee optional before 16:00. A short visit comfortably permits an earlier return instead of stretching to 18:45.",
+        "venue": "Official Mon\u2013Fri 10:00\u201316:00; $2 admission. University events/closures can change access; not specifically confirmed for Oct 23.",
+        "venueSource": "https://utf.edu/the-waterfall/visiting-toccoa-falls/",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:15",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "14:15\u201314:35",
+            "label": "Shutdown / vehicle handoff"
+          },
+          {
+            "time": "14:35\u201314:55",
+            "label": "Transfer to falls"
+          },
+          {
+            "time": "14:55\u201315:30",
+            "label": "Waterfall visit"
+          },
+          {
+            "time": "15:30\u201315:45",
+            "label": "Transfer downtown"
+          },
+          {
+            "time": "15:45\u201316:00",
+            "label": "Short coffee stop only if service is prompt"
+          },
+          {
+            "time": "16:00\u201316:20",
+            "label": "Return car / handoff"
+          },
+          {
+            "time": "16:20\u201316:50",
+            "label": "Return preflight"
+          },
+          {
+            "time": "16:50\u201317:35",
+            "label": "Return flight allowance; earlier than latest target"
+          },
+          {
+            "time": "17:35\u201317:55",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Not covered by the configured published planner; a separate pilot weather review is required. Do not substitute nearby-airport forecast as this airport forecast.",
+        "quick_stop": "30\u201345 min at Toccoa Falls; add 15\u201320 min driving each way. Grounds close 16:00. This is a ground visit, not an airport-only stop.",
+        "arrival_hhmm": "14:15",
+        "departure_hhmm": "16:50",
+        "tagline": "Short waterfall escape"
+      }
+    },
+    "KCEU": {
+      "airport": "KCEU",
+      "name": "Clemson",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": 67.7,
+      "airborne_eta_minutes_label": "40\u201350",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KCEU",
+      "runways": [
+        {
+          "designators": "7/25",
+          "length_ft": 5000,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 73,
+            "first_true_deg": 68,
+            "reciprocal_magnetic_deg": 253,
+            "reciprocal_true_deg": 248
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "South Carolina Botanical Garden",
+          "category": "Things to do",
+          "description": "Select a short garden-and-woodland route rather than all 230 acres. Quiet paths and planted areas create a flexible date stop.",
+          "url": "https://www.clemson.edu/scbg/visit/",
+          "hours_note": "Grounds sunrise\u2013sundown daily; visitor center 10:00\u201317:00, university holiday exceptions.",
+          "time_fit": "45\u201360 min walk; indoor center optional before 17:00.",
+          "drive_estimate": "15\u201320 min each way estimate",
+          "official_photo_gallery": "https://www.clemson.edu/scbg/visit/"
+        },
+        {
+          "name": "'55 Exchange campus scoop shop",
+          "category": "Dining / ice cream",
+          "description": "Student-made Clemson ice cream, shakes and coffee chillers at Hendrix Student Center. A sweet snack, not a full meal.",
+          "url": "https://www.clemson.edu/cafls/icecream/campus-scoop-shop/index.html",
+          "hours_note": "Official Mon\u2013Fri 11:30\u201318:00; campus holidays and game-day hours can differ.",
+          "time_fit": "30\u201345 min including parking/walking and queue.",
+          "drive_estimate": "15\u201320 min airport plus campus parking/walk; 10\u201315 min from garden estimate",
+          "official_photo_gallery": "https://www.clemson.edu/cafls/icecream/campus-scoop-shop/index.html"
+        },
+        {
+          "name": "The Esso Club",
+          "category": "Dining \u2014 alternative",
+          "description": "A longstanding Clemson sports-bar atmosphere for burgers/wings rather than a quiet garden lunch. Pilot: no alcohol.",
+          "url": "https://theessoclub.com/",
+          "hours_note": "Official site confirms location/menu but does not publish hours on checked pages; secondary listings say Friday 11:00\u201322:00. Verify service before selecting.",
+          "time_fit": "Alternative full meal 60 min; replace ice cream or shorten garden, not all three.",
+          "drive_estimate": "10\u201315 min each way estimate",
+          "official_photo_gallery": "https://theessoclub.com/"
+        }
+      ],
+      "research": {
+        "id": "KCEU",
+        "name": "Clemson gardens + ice cream",
+        "lat": "34.6722269",
+        "lon": "-82.8858967",
+        "desc": "A woodland botanical-garden walk followed by student-made ice cream: scenery and a playful college-town stop without a lengthy tour.",
+        "tag": "Garden + sweet stop",
+        "scenic": "A woodland botanical-garden walk followed by student-made ice cream: scenery and a playful college-town stop without a lengthy tour.",
+        "distance_nm": 67.7,
+        "flight": "67.7 NM direct calculated; 40\u201350 min each way allowance",
+        "flight_source": "Great-circle from KLZU coordinates; flight duration is a planning allowance, not a Mooney performance or route calculation.",
+        "ground": "15\u201320 min to garden; 15\u201320 min to campus, plus parking/walking; garden-to-Hendrix about 10\u201315 min estimate.",
+        "runway": "07/25 \u00b75,000\u00d7100 ft \u00b7 elevation 891 ft",
+        "airport_source": "https://www.airnav.com/airport/KCEU",
+        "caution": "Runway 07 right traffic. Campus traffic and parking can add time; no campus event or parking availability guaranteed. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "County airport advertises prearranged rental delivery and local transport providers. No on-demand availability or crew-car duration guaranteed. FBO published Mon\u2013Sat 08:00\u201318:00; arrange pickup/return before taking off.",
+        "transportSource": "https://oconeesc.com/airport-home/fbo-services/transportation-services",
+        "transport_sources": [
+          "https://oconeesc.com/airport-home/fbo-services/transportation-services"
+        ],
+        "planner_covered": false,
+        "activity": "Garden then ice cream; about 90 min actual visiting. Plan 18:35 landing rather than consuming the full 18:45 limit.",
+        "recommended_pairing": "Garden then ice cream; about 90 min actual visiting. Plan 18:35 landing rather than consuming the full 18:45 limit.",
+        "venue": "Grounds sunrise\u2013sundown daily; visitor center 10:00\u201317:00, university holiday exceptions.",
+        "venueSource": "https://www.clemson.edu/scbg/visit/",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:20",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "14:20\u201314:40",
+            "label": "Shutdown / vehicle handoff"
+          },
+          {
+            "time": "14:40\u201315:00",
+            "label": "Drive to garden"
+          },
+          {
+            "time": "15:00\u201316:00",
+            "label": "Garden walk"
+          },
+          {
+            "time": "16:00\u201316:20",
+            "label": "Campus transfer / parking"
+          },
+          {
+            "time": "16:20\u201316:50",
+            "label": "Ice cream pause"
+          },
+          {
+            "time": "16:50\u201317:15",
+            "label": "Return drive / vehicle handoff"
+          },
+          {
+            "time": "17:15\u201317:45",
+            "label": "Return preflight"
+          },
+          {
+            "time": "17:45\u201318:35",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "18:35\u201318:55",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Not covered by the configured published planner; a separate pilot weather review is required. Do not substitute nearby-airport forecast as this airport forecast.",
+        "quick_stop": "30\u201345 min on a selected South Carolina Botanical Garden path; add 15\u201320 min driving each way. Skip campus ice cream for the simplest short stop.",
+        "arrival_hhmm": "14:20",
+        "departure_hhmm": "17:45",
+        "tagline": "Garden + sweet stop"
+      }
+    },
+    "KAND": {
+      "airport": "KAND",
+      "name": "Lake Hartwell",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 69.5,
+      "airborne_eta_minutes_label": "40\u201350",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KAND",
+      "runways": [
+        {
+          "designators": "5/23",
+          "length_ft": 6002,
+          "width_ft": 149,
+          "headings": {
+            "first_magnetic_deg": 51,
+            "first_true_deg": 46,
+            "reciprocal_magnetic_deg": 231,
+            "reciprocal_true_deg": 226
+          },
+          "landing_distance_available_ft": null
+        },
+        {
+          "designators": "17/35",
+          "length_ft": 4996,
+          "width_ft": 149,
+          "headings": {
+            "first_magnetic_deg": 171,
+            "first_true_deg": 166,
+            "reciprocal_magnetic_deg": 351,
+            "reciprocal_true_deg": 346
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Sadlers Creek State Park",
+          "category": "Things to do",
+          "description": "A Lake Hartwell peninsula with short nature-trail and shoreline possibilities. Use open shoreline areas, not the closed fishing pier.",
+          "url": "https://southcarolinaparks.com/sadlers-creek",
+          "hours_note": "Official sunrise\u2013sunset daily; $3/adult. Fishing pier CLOSED until further notice.",
+          "time_fit": "30\u201345 min scenic pause; no boating/rental activity promised.",
+          "drive_estimate": "20\u201325 min each way estimate",
+          "official_photo_gallery": "https://southcarolinaparks.com/sadlers-creek"
+        },
+        {
+          "name": "Doolittle's",
+          "category": "Dining",
+          "description": "Casual downtown American dining with a broad menu, convenient for a short Main Street walk. This is not a lake-view restaurant.",
+          "url": "https://doolittlesrestaurant.com/tags/lunch",
+          "hours_note": "Official Friday 11:00\u201322:00.",
+          "time_fit": "50\u201360 min meal; if delayed, skip the walk rather than shrink flight buffers.",
+          "drive_estimate": "15\u201320 min airport; 25\u201330 min from Sadlers Creek estimate",
+          "official_photo_gallery": "https://doolittlesrestaurant.com/tags/lunch"
+        }
+      ],
+      "research": {
+        "id": "KAND",
+        "name": "Anderson / Lake Hartwell",
+        "lat": "34.4945867",
+        "lon": "-82.7093814",
+        "desc": "Lake Hartwell views and a short woodland stroll, with a relaxed downtown restaurant alternative.",
+        "tag": "Lake peninsula + town",
+        "scenic": "Lake Hartwell views and a short woodland stroll, with a relaxed downtown restaurant alternative.",
+        "distance_nm": 69.5,
+        "flight": "69.5 NM direct calculated; 40\u201350 min each way allowance",
+        "flight_source": "Great-circle from KLZU coordinates; flight duration is a planning allowance, not a Mooney performance or route calculation.",
+        "ground": "20\u201325 min to Sadlers Creek; 15\u201320 min to downtown; park-to-downtown 25\u201330 min estimates.",
+        "runway": "05/23 \u00b76,002\u00d7149 ft; 17/35 \u00b74,996\u00d7149 ft \u00b7 elevation 782 ft",
+        "airport_source": "https://www.airnav.com/airport/KAND",
+        "caution": "Runway 17/35 listed poor with widespread cracks; main runway profile restricts end-to-end visibility. Wildlife and aerobatic practice area noted. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "County airport lists rental cars and a transportation sheet; advance delivery/return arrangements and availability not checked. Courtesy car mentioned in county planning material but not guaranteed. Attendance 07:30\u201319:30.",
+        "transportSource": "https://www.andersoncountysc.org/work-live/for-businesses/airport/",
+        "transport_sources": [
+          "https://www.andersoncountysc.org/work-live/for-businesses/airport/",
+          "https://www.andersoncountysc.org/wp-content/uploads/2022/11/RENTAL-CARS-AND-TRANSPORTATION.docx.pdf"
+        ],
+        "planner_covered": false,
+        "activity": "Lakefront pause + downtown meal fits only with prompt transport/service. Prefer a single lakeside visit and earlier return if buffers slip.",
+        "recommended_pairing": "Lakefront pause + downtown meal fits only with prompt transport/service. Prefer a single lakeside visit and earlier return if buffers slip.",
+        "venue": "Official sunrise\u2013sunset daily; $3/adult. Fishing pier CLOSED until further notice.",
+        "venueSource": "https://southcarolinaparks.com/sadlers-creek",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:20",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "14:20\u201314:40",
+            "label": "Shutdown / vehicle handoff"
+          },
+          {
+            "time": "14:40\u201315:05",
+            "label": "Drive to park"
+          },
+          {
+            "time": "15:05\u201315:45",
+            "label": "Lakefront / short trail"
+          },
+          {
+            "time": "15:45\u201316:15",
+            "label": "Drive downtown"
+          },
+          {
+            "time": "16:15\u201317:05",
+            "label": "Meal"
+          },
+          {
+            "time": "17:05\u201317:25",
+            "label": "Drive back / handoff allowance"
+          },
+          {
+            "time": "17:25\u201317:55",
+            "label": "Return preflight"
+          },
+          {
+            "time": "17:55\u201318:45",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "18:45\u201319:05",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Not covered by the configured published planner; a separate pilot weather review is required. Do not substitute nearby-airport forecast as this airport forecast.",
+        "quick_stop": "30\u201345 min by the lake at Sadlers Creek; add 20\u201325 min driving each way. Do not use the closed fishing pier.",
+        "arrival_hhmm": "14:20",
+        "departure_hhmm": "17:55",
+        "tagline": "Lake peninsula + town"
+      }
+    },
+    "KGRD": {
+      "airport": "KGRD",
+      "name": "Lake Greenwood",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "No current courtesy-car evidence"
+      },
+      "distance_nm": 91.2,
+      "airborne_eta_minutes_label": "50\u201360",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KGRD",
+      "runways": [
+        {
+          "designators": "9/27",
+          "length_ft": 5001,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 92,
+            "first_true_deg": 85,
+            "reciprocal_magnetic_deg": 272,
+            "reciprocal_true_deg": 265
+          },
+          "landing_distance_available_ft": null
+        },
+        {
+          "designators": "5/23",
+          "length_ft": 3600,
+          "width_ft": 60,
+          "headings": {
+            "first_magnetic_deg": 51,
+            "first_true_deg": 44,
+            "reciprocal_magnetic_deg": 231,
+            "reciprocal_true_deg": 224
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Break on the Lake",
+          "category": "Dining / lake view",
+          "description": "Steak and seafood restaurant with documented panoramic Lake Greenwood views. Make the lakeside meal itself the date instead of stacking a distant park.",
+          "url": "https://www.breakonthelakegwd.com/",
+          "hours_note": "Official Tue\u2013Sat 11:00\u201321:00.",
+          "time_fit": "60\u201375 min meal and view; seating/wait unconfirmed.",
+          "drive_estimate": "20\u201325 min each way estimate",
+          "official_photo_gallery": "https://www.breakonthelakegwd.com/"
+        },
+        {
+          "name": "Lake Greenwood State Park",
+          "category": "Things to do \u2014 alternative",
+          "description": "Short shoreline walk and views from the CCC-era terraces near the Drummond Center. Do not attempt the full 4.21-mile trail in this window.",
+          "url": "https://southcarolinaparks.com/lake-greenwood",
+          "hours_note": "Official dawn\u2013dusk; $3/adult. Trails open but West Shoreline Loop work continues; follow new markers.",
+          "time_fit": "Single-focus 45\u201360 min park stop with packed food, instead of restaurant.",
+          "drive_estimate": "35\u201345 min each way estimate",
+          "official_photo_gallery": "https://southcarolinaparks.com/lake-greenwood"
+        }
+      ],
+      "research": {
+        "id": "KGRD",
+        "name": "Greenwood / lakeside lunch",
+        "lat": "34.2503938",
+        "lon": "-82.1578093",
+        "desc": "A true lakeside restaurant makes this a worthwhile single-stop flight; a state-park visit is an alternative, not an extra stop.",
+        "tag": "Lakeside meal escape",
+        "scenic": "A true lakeside restaurant makes this a worthwhile single-stop flight; a state-park visit is an alternative, not an extra stop.",
+        "distance_nm": 91.2,
+        "flight": "91.2 NM direct calculated; 50\u201360 min each way allowance",
+        "flight_source": "Great-circle from KLZU coordinates; flight duration is a planning allowance, not a Mooney performance or route calculation.",
+        "ground": "20\u201325 min to Break on the Lake; 35\u201345 min to Lake Greenwood State Park, estimates.",
+        "runway": "09/27 \u00b75,001\u00d7100 ft \u00b7 elevation 631 ft",
+        "airport_source": "https://www.airnav.com/airport/KGRD",
+        "caution": "County website has older conflicting runway information; use current FAA-derived main runway dimensions for preview only. Verify runway availability and NOTAMs. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "County terminal open Monday\u2013Friday 07:30\u201318:00. Current rental delivery, crew-car and rideshare availability were not verified. This destination is conditional on a confirmed round-trip vehicle; do not arrive assuming one.",
+        "transportSource": "https://www.greenwoodcounty-sc.gov/airport",
+        "transport_sources": [
+          "https://www.greenwoodcounty-sc.gov/airport"
+        ],
+        "planner_covered": false,
+        "activity": "One lakeside meal is the strong Friday fit. Park is a separate alternative; transport confirmation is the deciding practical issue.",
+        "recommended_pairing": "One lakeside meal is the strong Friday fit. Park is a separate alternative; transport confirmation is the deciding practical issue.",
+        "venue": "Official Tue\u2013Sat 11:00\u201321:00.",
+        "venueSource": "https://www.breakonthelakegwd.com/",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:30",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "14:30\u201314:50",
+            "label": "Shutdown / vehicle handoff"
+          },
+          {
+            "time": "14:50\u201315:15",
+            "label": "Transfer to restaurant"
+          },
+          {
+            "time": "15:15\u201316:30",
+            "label": "Lakeside meal / view"
+          },
+          {
+            "time": "16:30\u201317:00",
+            "label": "Return drive / handoff; spare time absorbs delay"
+          },
+          {
+            "time": "17:00\u201317:30",
+            "label": "Return preflight"
+          },
+          {
+            "time": "17:30\u201318:30",
+            "label": "Flight allowance; 15 min earlier than latest target"
+          },
+          {
+            "time": "18:30\u201318:50",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Not covered by the configured published planner; a separate pilot weather review is required. Do not substitute nearby-airport forecast as this airport forecast.",
+        "quick_stop": "45 min at Lake Greenwood State Park is possible only with a confirmed vehicle and 35\u201345 min transfers each way. A restaurant meal normally needs 60\u201375 min.",
+        "arrival_hhmm": "14:30",
+        "departure_hhmm": "17:30",
+        "tagline": "Lakeside meal escape"
+      }
+    },
+    "KMLJ": {
+      "airport": "KMLJ",
+      "name": "Milledgeville",
+      "courtesy_car": {
+        "status": "Unverified",
+        "note": "2018 report only; recheck"
+      },
+      "distance_nm": 61.2,
+      "airborne_eta_minutes_label": "45",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KMLJ",
+      "runways": [
+        {
+          "designators": "10/28",
+          "length_ft": 5506,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 96,
+            "first_true_deg": 92,
+            "reciprocal_magnetic_deg": 276,
+            "reciprocal_true_deg": 272
+          },
+          "landing_distance_available_ft": [
+            5506,
+            5424
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Georgia\u2019s Old Governor\u2019s Mansion",
+          "category": "Things to do",
+          "description": "Guided historic-house interpretation covers governors and the free and enslaved people who lived/worked here. A substantial indoor option rather than just an exterior photo.",
+          "url": "https://www.gcsu.edu/mansion/tour-information",
+          "hours_note": "Tuesday\u2013Saturday tours on the hour 10:00\u201316:00; last tour STARTS 16:00. Approx 50 min; walk-ins first-come, capacity not checked.",
+          "drive_estimate": "15\u201320 min airport drive; estimate, not live routing",
+          "time_fit": "Friday 15:00 tour; allow 60 min including arrival",
+          "photo_source": "https://www.gcsu.edu/mansion/tour-information",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.gcsu.edu/mansion/tour-information"
+          ]
+        },
+        {
+          "name": "Amici Milledgeville",
+          "category": "Dining",
+          "description": "Casual pizza and wings on historic downtown square with sidewalk patio; not a scenic lake restaurant.",
+          "url": "https://amici-cafe.com/amici-milledgeville/",
+          "hours_note": "Official Friday\u2013Sat 11:00\u201302:00; daytime meal fits.",
+          "drive_estimate": "15\u201320 min from airport; short downtown walk from mansion; estimate, not live routing",
+          "time_fit": "35\u201350 min quick meal; choose takeout if service slow",
+          "photo_source": "https://amici-cafe.com/amici-milledgeville/",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://amici-cafe.com/amici-milledgeville/"
+          ]
+        }
+      ],
+      "research": {
+        "airport": "KMLJ",
+        "city": "Milledgeville, Georgia",
+        "name": "Baldwin County Regional",
+        "distance_nm_from_KLZU": 61.2,
+        "flight_estimate_minutes_each_way": 45,
+        "airport_data": "Non-towered; 10/28 5,506 \u00d7 100 ft; LDA 28 5,424 ft; elevation 385 ft. Staff Monday\u2013Saturday 08\u201317. Extensive flight training/birds/wildlife; tight ramp follow FBO instructions. FAA-derived data effective October 1, recheck.",
+        "airport_source": "https://www.airnav.com/airport/KMLJ",
+        "ground_transport": "Courtesy car mentioned only in 2018 AOPA review: not current availability evidence. Plan confirmed rental/driver or verify airport car beforehand. Return before 17:00 if using staffed handoff.",
+        "ground_sources": [
+          "https://webapp.aopa.org/destinations/airports/KMLJ",
+          "https://www.airnav.com/airport/KMLJ"
+        ],
+        "verdict": "Good history-and-college-town date if transport secured; 15:00 mansion tour fits, 16:00 tour pushes meal/airport staffing.",
+        "tagline": "Historic mansion and a college-town patio"
+      }
+    },
+    "KMCN": {
+      "airport": "KMCN",
+      "name": "Macon",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 78.7,
+      "airborne_eta_minutes_label": "55",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KMCN",
+      "runways": [
+        {
+          "designators": "5/23",
+          "length_ft": 6500,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 54,
+            "first_true_deg": 48,
+            "reciprocal_magnetic_deg": 234,
+            "reciprocal_true_deg": 228
+          },
+          "landing_distance_available_ft": [
+            6221,
+            6426
+          ]
+        },
+        {
+          "designators": "14/32",
+          "length_ft": 5000,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 136,
+            "first_true_deg": 130,
+            "reciprocal_magnetic_deg": 316,
+            "reciprocal_true_deg": 310
+          },
+          "landing_distance_available_ft": [
+            5000,
+            5000
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Ocmulgee Mounds National Historical Park",
+          "category": "Things to do",
+          "description": "Brief Earth Lodge/museum or Great Temple Mound visit: choose ONE focus for a 30\u201340 min stop; not a full park tour. Sacred ancestral landscape with downtown views from the mound.",
+          "url": "https://www.nps.gov/ocmu/planyourvisit/hours.htm",
+          "hours_note": "NPS: grounds/trails 08:00\u201317:00; visitor center/Earth Lodge 09:00\u201317:00. Recheck park alerts before departure.",
+          "drive_estimate": "25\u201330 min airport to 1207 Emery Hwy; estimate, not live routing",
+          "time_fit": "30\u201340 min focused visit; full park needs longer",
+          "photo_source": "https://www.nps.gov/ocmu/planyourvisit/hours.htm",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.nps.gov/ocmu/planyourvisit/hours.htm"
+          ]
+        },
+        {
+          "name": "The Rookery",
+          "category": "Dining",
+          "description": "Longstanding downtown Macon burger-and-milkshake stop on Cherry Street; character and music-town atmosphere, not waterfront views.",
+          "url": "https://www.rookerymacon.com/contact",
+          "hours_note": "Official Friday\u2013Sat 11:00\u201322:30; no reservations accepted.",
+          "drive_estimate": "20\u201325 min airport; 10\u201315 min from Ocmulgee; estimate, not live routing",
+          "time_fit": "45 min meal only if seated promptly; otherwise takeout or skip",
+          "photo_source": "https://www.rookerymacon.com/contact",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.rookerymacon.com/contact"
+          ]
+        }
+      ],
+      "research": {
+        "airport": "KMCN",
+        "city": "Macon, Georgia",
+        "name": "Middle Georgia Regional",
+        "distance_nm_from_KLZU": 78.7,
+        "flight_estimate_minutes_each_way": 55,
+        "airport_data": "Towered; 5/23 6,500 \u00d7 150 ft, LDA 5 6,221 ft/LDA 23 6,426 ft; 14/32 5,000 \u00d7 150 ft; elevation 354 ft. FAA-derived October 1 data, not briefing.",
+        "airport_source": "https://www.airnav.com/airport/KMCN",
+        "ground_transport": "HighNote Aviation courtesy/rental cars listed by FlightAware (not official confirmation); airport officially lists rental cars and says Uber/Lyft operate locally. No pickup ETA or inventory confirmed. GA FBO pickup may differ from airline terminal.",
+        "ground_sources": [
+          "https://highnoteaviation.com/",
+          "https://www.flightaware.com/resources/airport/KMCN/services/FBO/HighNote_Aviation",
+          "https://iflymacon.com/travel-info/rental-cars/"
+        ],
+        "verdict": "Distinctive Indigenous history + music-town lunch, but KMCN road transfer makes the pair tight; choose one main stop if delays.",
+        "tagline": "Ancient mounds and Macon music-town flavor"
+      }
+    },
+    "KCSG": {
+      "airport": "KCSG",
+      "name": "Columbus",
+      "courtesy_car": {
+        "status": "Listed \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 100.5,
+      "airborne_eta_minutes_label": "70",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KCSG",
+      "runways": [
+        {
+          "designators": "6/24",
+          "length_ft": 6997,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 56,
+            "first_true_deg": 54,
+            "reciprocal_magnetic_deg": 236,
+            "reciprocal_true_deg": 234
+          },
+          "landing_distance_available_ft": [
+            6997,
+            6997
+          ]
+        },
+        {
+          "designators": "13/31",
+          "length_ft": 3997,
+          "width_ft": 75,
+          "headings": {
+            "first_magnetic_deg": 129,
+            "first_true_deg": 127,
+            "reciprocal_magnetic_deg": 309,
+            "reciprocal_true_deg": 307
+          },
+          "landing_distance_available_ft": [
+            3907,
+            3847
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Chattahoochee Riverwalk, Uptown segment",
+          "category": "Things to do",
+          "description": "Short riverside walk around Bay Avenue/11 th\u201314 th Streets, watching the whitewater from shore. Keep to a compact segment; no rafting/zipline reservation or time assumed.",
+          "url": "https://visitcolumbusga.com/visit/things-to-do/chattahoochee_riverwalk/",
+          "hours_note": "Official tourism describes year-round access but no precise hours on page; plan daylight and obey posted closures.",
+          "drive_estimate": "20\u201325 min airport to Uptown; estimate, not live routing",
+          "time_fit": "30 min scenic stroll; 45 min only if ahead of schedule",
+          "photo_source": "https://visitcolumbusga.com/visit/things-to-do/chattahoochee_riverwalk/",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://visitcolumbusga.com/visit/things-to-do/chattahoochee_riverwalk/"
+          ]
+        },
+        {
+          "name": "The Cannon Brewpub",
+          "category": "Dining",
+          "description": "Old-world-style downtown room, American food and brick-oven pizza near Riverwalk; selected for all-afternoon kitchen hours rather than dinner-only restaurants. Pilot should choose nonalcoholic drinks.",
+          "url": "https://www.thecannonbrewpub.com/",
+          "hours_note": "Official Tuesday\u2013Sat 11:00\u201321:00; Monday closed.",
+          "drive_estimate": "20\u201325 min airport; short walk from river; estimate, not live routing",
+          "time_fit": "40 min quick meal or takeout; no table or service speed guaranteed",
+          "photo_source": "https://www.thecannonbrewpub.com/",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.thecannonbrewpub.com/"
+          ]
+        }
+      ],
+      "research": {
+        "airport": "KCSG",
+        "city": "Columbus, Georgia",
+        "name": "Columbus Airport",
+        "distance_nm_from_KLZU": 100.5,
+        "flight_estimate_minutes_each_way": 70,
+        "airport_data": "Towered; 6/24 6,997 \u00d7 150 ft; 13/31 3,997 \u00d7 75 ft; elevation 398 ft. FAA-derived October 1 data, verify current information.",
+        "airport_source": "https://www.airnav.com/airport/KCSG",
+        "ground_transport": "Flightways Columbus officially offers courtesy vehicles for restaurant visits. Availability, maximum duration, fuel purchase and charges unconfirmed; do not assume a two-stop afternoon is authorized.",
+        "ground_sources": [
+          "https://flightwayscolumbus.com/"
+        ],
+        "verdict": "More distinctive river-and-whitewater setting, but longer flying; short walk+quick meal only, not rafting or ziplining in this window.",
+        "tagline": "Whitewater views without getting wet"
+      }
+    },
+    "KFFC": {
+      "airport": "KFFC",
+      "name": "Peachtree City",
+      "courtesy_car": {
+        "status": "2 h",
+        "note": "Listed limit \u00b7 availability unconfirmed"
+      },
+      "distance_nm": 48.1,
+      "airborne_eta_minutes_label": "60",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KFFC",
+      "runways": [
+        {
+          "designators": "13/31",
+          "length_ft": 5768,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 133,
+            "first_true_deg": 128,
+            "reciprocal_magnetic_deg": 313,
+            "reciprocal_true_deg": 308
+          },
+          "landing_distance_available_ft": [
+            4625,
+            5118
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Drake Field at Lake Peachtree",
+          "category": "Things to do",
+          "description": "Quarter-mile lakeside path, bench swings and Adirondack chairs at 155 Willowbend Road; a simple 20\u201335 min scenic pause. Lake boating/fishing use is restricted to residents\u2014do not imply visitor kayak access.",
+          "url": "https://peachtree-city.org/1329/Drake-Field",
+          "hours_note": "City page gives amenities but no gate hours; daylight visit only, observe posted/event closures.",
+          "drive_estimate": "10\u201315 min airport to Drake Field; estimate, not live routing",
+          "time_fit": "20\u201335 min Friday lakeside walk",
+          "photo_source": "https://peachtree-city.org/1329/Drake-Field",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://peachtree-city.org/1329/Drake-Field"
+          ]
+        },
+        {
+          "name": "Frank\u2019s at the Old Mill",
+          "category": "Dining",
+          "description": "Mediterranean restaurant in a characterful old-mill setting; venue-site testimonials mention water views, but view/table not guaranteed. Reservations recommended, availability not checked.",
+          "url": "https://www.franksattheoldmill.com/reservations",
+          "hours_note": "Official Tuesday\u2013Sat 16:00\u201322:00; cannot be a 14:00 lunch.",
+          "drive_estimate": "20\u201325 min airport to 1095 W Lanier Avenue; 15\u201320 min from Drake; estimate, not live routing",
+          "time_fit": "16:00 early dinner 45 min; if service slower, leave a buffer rather than risking the return",
+          "photo_source": "https://www.franksattheoldmill.com/reservations",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.franksattheoldmill.com/reservations"
+          ]
+        }
+      ],
+      "research": {
+        "airport": "KFFC",
+        "city": "Peachtree City / Fayetteville, Georgia",
+        "name": "Atlanta Regional Airport\u2013Falcon Field",
+        "distance_nm_from_KLZU": 48.1,
+        "flight_estimate_minutes_each_way": 60,
+        "airport_data": "Non-towered; 13/31 5,768 \u00d7 100 ft; LDA 13 4,625 ft/LDA 31 5,118 ft, elevation 808 ft. Right traffic pattern 13. FBO 07\u201320. Use current FAA data rather than potentially stale website runway wording.",
+        "airport_source": "https://www.airnav.com/airport/KFFC",
+        "ground_transport": "Official courtesy car $15, waived with a 10-gallon fuel purchase; driver 21+; Fayette County only except Senoia; return within 2 h or extra fee. Car availability unconfirmed. Official Enterprise rental assistance. Timeline deliberately keeps car about 1 h 55.",
+        "ground_sources": [
+          "https://atlantaregionalairport.com/services/fee-schedule/",
+          "https://atlantaregionalairport.com/services/pilot-information/"
+        ],
+        "verdict": "Lakefront pause and characterful 16:00 early dinner work with conservative 60 min Atlanta-route allowance; not simply a 20 min direct flight.",
+        "tagline": "Lake Peachtree pause and an old-mill dinner"
+      }
+    },
+    "KRMG": {
+      "airport": "KRMG",
+      "name": "Rome",
+      "courtesy_car": {
+        "status": "90 min",
+        "note": "Listed limit \u00b7 availability unconfirmed"
+      },
+      "distance_nm": 63.5,
+      "airborne_eta_minutes_label": "50",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KRMG",
+      "runways": [
+        {
+          "designators": "1/19",
+          "length_ft": 7007,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 7,
+            "first_true_deg": 5,
+            "reciprocal_magnetic_deg": 187,
+            "reciprocal_true_deg": 185
+          },
+          "landing_distance_available_ft": [
+            7007,
+            7007
+          ]
+        },
+        {
+          "designators": "7/25",
+          "length_ft": 4495,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 72,
+            "first_true_deg": 70,
+            "reciprocal_magnetic_deg": 252,
+            "reciprocal_true_deg": 250
+          },
+          "landing_distance_available_ft": [
+            4381,
+            4495
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Town Green and Chief John Ross Pedestrian Bridge",
+          "category": "Things to do",
+          "description": "Compact riverfront and pedestrian bridge linking Downtown with the River District; short river views and Broad Street stroll. Do not advertise the seasonal splash fountain in October.",
+          "url": "https://romegeorgia.org/town-green-chief-john-ross-pedestrian-bridge/",
+          "hours_note": "Official tourism does not publish general park gate hours; plan daylight, obey closures. Fountain operates Memorial Day\u2013Labor Day only.",
+          "drive_estimate": "20\u201325 min airport to West 1 st Street/West 3 rd Avenue; estimate, not live routing",
+          "time_fit": "30 min walk is compatible with 90 min car including transfers",
+          "photo_source": "https://romegeorgia.org/town-green-chief-john-ross-pedestrian-bridge/",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://romegeorgia.org/town-green-chief-john-ross-pedestrian-bridge/"
+          ]
+        },
+        {
+          "name": "Harvest Moon Cafe",
+          "category": "Dining",
+          "description": "Historic 1895 department-store building repurposed into an eclectic Broad Street restaurant with sidewalk patio. Rooftop bar is not assumed open for this afternoon meal.",
+          "url": "https://www.myharvestmooncafe.com/about",
+          "hours_note": "Official Friday 11:00\u201322:00.",
+          "drive_estimate": "20\u201325 min airport to 234 Broad Street; short walk from Town Green; estimate, not live routing",
+          "time_fit": "Quick 35 min meal instead of walk with courtesy car; 60 min if independent transport",
+          "photo_source": "https://www.myharvestmooncafe.com/about",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.myharvestmooncafe.com/about"
+          ]
+        }
+      ],
+      "research": {
+        "airport": "KRMG",
+        "city": "Rome, Georgia",
+        "name": "Richard B. Russell Regional \u2013 J.H. Towers Field",
+        "distance_nm_from_KLZU": 63.5,
+        "flight_estimate_minutes_each_way": 50,
+        "airport_data": "Non-towered; runway 1/19 7,007 \u00d7 150 ft; 7/25 4,495 \u00d7 100 ft, LDA 7 4,381 ft; elevation 644 ft. FAA-derived October 1 information, recheck current briefing.",
+        "airport_source": "https://www.airnav.com/airport/KRMG",
+        "ground_transport": "OFFICIAL courtesy car limit is only 1\u00bd hours. Availability unconfirmed. This supports ONE short downtown activity OR a quick meal, not a relaxed combination. Rental cars listed by FBO on AirNav; inventory and arrangements unconfirmed. Weekday fueling 07:00\u201320:00.",
+        "ground_sources": [
+          "https://www.russellregionalairport.com/pilots/pilot_services.php",
+          "https://airnav.com/airport/KRMG/A"
+        ],
+        "verdict": "Good riverside/historic-downtown choice, but 90 min courtesy-car limit is the real constraint. Use independent transport for the full pair.",
+        "tagline": "A river bridge and historic Broad Street"
+      }
+    },
+    "KCHA": {
+      "airport": "KCHA",
+      "name": "Chattanooga",
+      "courtesy_car": {
+        "status": "Listed \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 88.3,
+      "airborne_eta_minutes_label": "65",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KCHA",
+      "runways": [
+        {
+          "designators": "2/20",
+          "length_ft": 7400,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 22,
+            "first_true_deg": 17,
+            "reciprocal_magnetic_deg": 202,
+            "reciprocal_true_deg": 197
+          },
+          "landing_distance_available_ft": [
+            7100,
+            7400
+          ]
+        },
+        {
+          "designators": "15/33",
+          "length_ft": 5575,
+          "width_ft": 150,
+          "headings": {
+            "first_magnetic_deg": 150,
+            "first_true_deg": 145,
+            "reciprocal_magnetic_deg": 330,
+            "reciprocal_true_deg": 325
+          },
+          "landing_distance_available_ft": [
+            5470,
+            5000
+          ]
+        }
+      ],
+      "options": [
+        {
+          "name": "Tennessee Riverwalk near Boathouse",
+          "category": "Things to do",
+          "description": "Short out-and-back paved riverfront stroll beside the meal stop; no extra cross-city transfer and no need to reach downtown. Turn around at any posted closure rather than detour onto roads.",
+          "url": "https://chattanooga.gov/things-to-do/greenways-trails/tennessee-riverwalk",
+          "hours_note": "County official rules: Riverwalk 24/7 except Chattanooga State section first light\u2013dark. Use daylight; localized closure status still needs day-of check.",
+          "drive_estimate": "20\u201325 min airport to 1459 Riverside Drive area; estimate, not live routing",
+          "time_fit": "25\u201335 min walk, depending on meal wait",
+          "photo_source": "https://chattanooga.gov/things-to-do/greenways-trails/tennessee-riverwalk",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://chattanooga.gov/things-to-do/greenways-trails/tennessee-riverwalk"
+          ],
+          "hours_source": "https://parks.hamiltontn.gov/360/Map-Rules-and-Hours"
+        },
+        {
+          "name": "Boathouse Rotisserie & Raw Bar",
+          "category": "Dining",
+          "description": "Directly on the Tennessee River with views from dining room and covered patio, plus wood-grilled food and seafood. Venue explicitly substantiates the riverfront setting; a view table is not guaranteed.",
+          "url": "https://www.boathousechattanooga.com/location/boathouse/",
+          "hours_note": "Official daily 11:00\u201322:00; bar later.",
+          "drive_estimate": "20\u201325 min from Wilson Air Center; adjacent Riverwalk; estimate, not live routing",
+          "time_fit": "40\u201350 min light meal; shorten walk if waiting or service runs long",
+          "photo_source": "https://www.boathousechattanooga.com/location/boathouse/",
+          "photo_credit": "Link only; no redistribution permission inferred",
+          "photo_caption": "Official source photos",
+          "sources": [
+            "https://www.boathousechattanooga.com/location/boathouse/"
+          ],
+          "view_source": "https://www.boathousechattanooga.com/about-us/"
+        }
+      ],
+      "research": {
+        "airport": "KCHA",
+        "city": "Chattanooga, Tennessee",
+        "name": "Lovell Field / Chattanooga Airport",
+        "distance_nm_from_KLZU": 88.3,
+        "flight_estimate_minutes_each_way": 65,
+        "airport_data": "Towered; runway 2/20 7,400 \u00d7 150 ft; 15/33 5,575 \u00d7 150 ft; elevation 683 ft. Verify current declared landing distances, terrain, weather and NOTAMs.",
+        "airport_source": "https://www.airnav.com/airport/KCHA",
+        "ground_transport": "Wilson Air Center official site lists crew cars and onsite Enterprise rentals, plus courtesy shuttle. Current availability, excursion limits, fees and shuttle coverage unknown. Timeline uses about 2 h car; permission still must be confirmed. FBO is 932 Jubilee Drive, not airline terminal.",
+        "ground_sources": [
+          "https://www.wilsonair.com/cha-chattanooga/"
+        ],
+        "verdict": "A compelling actual river-view meal plus a small Riverwalk segment; feasible only with prompt transport/service. This is NOT a full downtown/aquarium/Lookout Mountain day.",
+        "tagline": "A genuine river-view meal and a short stroll"
+      }
+    },
+    "KRHP": {
+      "airport": "KRHP",
+      "name": "Murphy / Andrews",
+      "courtesy_car": {
+        "status": "Reported \u00b7 confirm",
+        "note": "Limit and availability unconfirmed"
+      },
+      "distance_nm": 73.2,
+      "airborne_eta_minutes_label": "45\u201355",
+      "distance_basis": "Planner value for KAVL/KGKT; other great-circle planning estimates",
+      "runway_source": "https://www.airnav.com/airport/KRHP",
+      "runways": [
+        {
+          "designators": "8/26",
+          "length_ft": 5500,
+          "width_ft": 100,
+          "headings": {
+            "first_magnetic_deg": 75,
+            "first_true_deg": 71,
+            "reciprocal_magnetic_deg": 255,
+            "reciprocal_true_deg": 251
+          },
+          "landing_distance_available_ft": null
+        }
+      ],
+      "options": [
+        {
+          "name": "Murphy Riverwalk",
+          "category": "Things to do",
+          "description": "Choose a short out-and-back along the Valley/Hiwassee river corridor, not the entire multi-mile trail. Scenic water and woodland rather than a long hike.",
+          "url": "https://www.townofmurphync.com/community/page/murphy-riverwalk",
+          "hours_note": "Town official site describes trail / trailheads; gate hours not verified. Daylight use planned; check current trail condition.",
+          "time_fit": "30\u201345 min single-focus stop.",
+          "drive_estimate": "25\u201330 min each-way estimate",
+          "official_photo_gallery": "https://www.townofmurphync.com/community/page/murphy-riverwalk"
+        },
+        {
+          "name": "Murphy's Chophouse",
+          "category": "Dining \u2014 alternative",
+          "description": "Steak/seafood lunch with outdoor-deck seating described by venue. View table and service time not guaranteed; choose this instead of trying to fit a long riverwalk.",
+          "url": "https://www.murphyschophouse.com/main.html",
+          "hours_note": "Official Friday/Saturday 11:00\u201321:00; lunch on deck/outdoors described.",
+          "time_fit": "60 min meal alternative, shorten only activity\u2014not aviation buffers.",
+          "drive_estimate": "25\u201330 min each-way estimate",
+          "official_photo_gallery": "https://www.murphyschophouse.com/main.html"
+        }
+      ],
+      "research": {
+        "id": "KRHP",
+        "name": "Murphy / mountain riverwalk",
+        "lat": "35.1952297",
+        "lon": "-83.8630386",
+        "desc": "Mountain-valley flying and a short riverside pause in Murphy, or a patio lunch instead; the ground transfer makes a single-focus stop the sensible choice.",
+        "tag": "Mountain valley + rivers",
+        "scenic": "Mountain-valley flying and a short riverside pause in Murphy, or a patio lunch instead; the ground transfer makes a single-focus stop the sensible choice.",
+        "distance_nm": 73.2,
+        "flight": "73.2 NM direct calculated; 45\u201355 min each way allowance",
+        "flight_source": "Great-circle from KLZU coordinates; flight duration is a planning allowance, not a Mooney performance or route calculation.",
+        "ground": "25\u201330 min to Murphy; Andrews closer 10\u201315 min. Estimates, not live routing.",
+        "runway": "08/26 \u00b75,500\u00d7100 ft \u00b7 elevation 1,699 ft; runway 08 threshold displaced 215 ft",
+        "airport_source": "https://www.airnav.com/airport/KRHP",
+        "caution": "High terrain surrounds airport; runway 08 right traffic, 4\u00b0PAPIs with terrain limitations. Mountain route/performance needs independent pilot review, not a scenic-flight endorsement. Verify current FAA charts, route weather, NOTAMs and aircraft performance before committing.",
+        "transport": "Official county airport staff 08:00\u201317:00 daily. Courtesy/rental cars appear only in secondary aviation listings; availability, trip limits and after-hours return unknown. Schedule vehicle back by 16:50 unless a different confirmed arrangement permits later.",
+        "transportSource": "https://www.cherokeecounty-nc.gov/149/Airport",
+        "transport_sources": [
+          "https://www.cherokeecounty-nc.gov/149/Airport",
+          "https://www.globalair.com/airport/fbo-at-rhp-western-carolina-regional-airport-1636.aspx"
+        ],
+        "planner_covered": false,
+        "activity": "Choose riverwalk OR patio lunch, not both. Earlier return supports 17:00 FBO staff close and avoids using sunset margin.",
+        "recommended_pairing": "Choose riverwalk OR patio lunch, not both. Earlier return supports 17:00 FBO staff close and avoids using sunset margin.",
+        "venue": "Town official site describes trail / trailheads; gate hours not verified. Daylight use planned; check current trail condition.",
+        "venueSource": "https://www.townofmurphync.com/community/page/murphy-riverwalk",
+        "schedule_assumption": "All EDT, Fri Oct 23. Outbound preflight 13:00\u201313:30 assumed; 20 min destination shutdown/vehicle handoff, 30 min return preflight, 20 min KLZU postflight. 18:45 is latest planned landing, not required to use the entire window.",
+        "schedule": [
+          {
+            "time": "13:00\u201313:30",
+            "label": "KLZU preflight"
+          },
+          {
+            "time": "13:30\u201314:25",
+            "label": "Flight allowance"
+          },
+          {
+            "time": "14:25\u201314:45",
+            "label": "Shutdown / vehicle handoff"
+          },
+          {
+            "time": "14:45\u201315:15",
+            "label": "Drive to Murphy"
+          },
+          {
+            "time": "15:15\u201316:15",
+            "label": "Choose riverwalk OR meal; retain waiting buffer"
+          },
+          {
+            "time": "16:15\u201316:50",
+            "label": "Return drive / handoff before 17:00 staff close"
+          },
+          {
+            "time": "16:50\u201317:20",
+            "label": "Return preflight"
+          },
+          {
+            "time": "17:20\u201318:15",
+            "label": "Flight allowance; earlier return reduces daylight pressure"
+          },
+          {
+            "time": "18:15\u201318:35",
+            "label": "KLZU postflight"
+          }
+        ],
+        "latest_landing": "18:45",
+        "sunset_caution": "18:45 is only about 7 min before the stated 18:52 KLZU sunset. Prefer earlier landing if feasible; do not spend this narrow margin on seating/traffic delays. Postflight can continue after sunset.",
+        "research_date": "2026-10-22",
+        "weather_status": "Not covered by the configured published planner; a separate pilot weather review is required. Do not substitute nearby-airport forecast as this airport forecast.",
+        "quick_stop": "30\u201345 min riverwalk in Murphy; add 25\u201330 min driving each way. Return any staff-dependent vehicle before 17:00.",
+        "arrival_hhmm": "14:25",
+        "departure_hhmm": "17:20",
+        "tagline": "Mountain valley + rivers"
+      }
+    }
+  }
+}

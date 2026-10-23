@@ -1,0 +1,27 @@
+{
+  "version": "v8",
+  "correction": "KFIN preview distance only; upstream source unchanged",
+  "airport": "KFIN",
+  "direct_distance_nm": 305,
+  "unrounded_distance_nm": 305.27,
+  "upstream_distance_nm": 295,
+  "source_ete": "2h03",
+  "ete_status": "Stored source planning estimate pending distance review; not wind-adjusted or recomputed",
+  "method": "Haversine great-circle, mean Earth radius 3440.065 nautical miles",
+  "coordinates": {
+    "KLZU": [
+      33.9780919,
+      -83.9623639
+    ],
+    "KFIN": [
+      29.4651511,
+      -81.2076483
+    ]
+  },
+  "sources": [
+    "https://www.airnav.com/airport/KLZU",
+    "https://www.airnav.com/airport/KFIN",
+    "https://github.com/clem2000/klzu-aviation-planner/blob/main/klzu_planner/core/airports.json"
+  ],
+  "audit_date": "2026-10-23"
+}
