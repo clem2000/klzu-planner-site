@@ -628,6 +628,11 @@ Last updated Monday Jul 20, 2026 - 2:00 PM ET · Next scheduled run: Monday Jul 
     var el=document.getElementById('sqlStatus');
     var label=el && el.querySelector ? el.querySelector('[data-status-text]') : el;
     var generated=document.getElementById('generatedStatus');
+    // Capture canonical ET text before the freshness writer replaces its markup.
+    var stamp=generated&&generated.querySelector('time');
+    var iso=generated&&generated.getAttribute('data-generated');
+    var stampLabel=stamp&&iso&&isFinite(Date.parse(iso))&&stamp.getAttribute('datetime')===iso
+      &&stamp.textContent!=='time unavailable' ? stamp.textContent : '';
     function fmtAge(h){
       if(h<1) return Math.round(h*60)+' min ago';
       if(h<48) return Math.round(h)+' h ago';
@@ -635,7 +640,7 @@ Last updated Monday Jul 20, 2026 - 2:00 PM ET · Next scheduled run: Monday Jul 
     }
     function freshness(){
       var iso=generated ? generated.getAttribute('data-generated') : '';
-      if(!iso) return {kind:'stale',phrase:'snapshot freshness unknown',title:''};
+      if(!iso||!stampLabel) return {kind:'stale',phrase:'snapshot freshness unknown',title:''};
       var gen=new Date(iso);
       if(!isFinite(gen.getTime())) return {kind:'stale',phrase:'snapshot freshness unknown',title:''};
       var hrs=(new Date()-gen)/36e5;
@@ -652,8 +657,7 @@ Last updated Monday Jul 20, 2026 - 2:00 PM ET · Next scheduled run: Monday Jul 
       var fresh=freshness();
       if(fresh.kind!=='current')messages.push(fresh.phrase);
       if(warning){warning.textContent=messages.join(' · ');warning.hidden=!messages.length;}
-      var stamp=generated&&generated.querySelector('time');
-      if(asof)asof.textContent=stamp?'As of '+stamp.textContent:'Snapshot time unavailable';
+      if(asof)asof.textContent=stampLabel?'As of '+stampLabel:'Snapshot time unavailable';
     }
     function set(kind,text,detail){
       if(!el) return;
